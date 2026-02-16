@@ -25,7 +25,7 @@ from logging_config import setup_logging
 
 
 # Logging Configuration
-logger = setup_logging()
+logger = setup_logging("heartbeat_producer")
 
 
 

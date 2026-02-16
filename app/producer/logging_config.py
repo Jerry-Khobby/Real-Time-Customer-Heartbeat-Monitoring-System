@@ -3,26 +3,30 @@ import os
 import sys
 from logging.handlers import RotatingFileHandler
 
-from config import LOG_DIR, LOG_FILE, LOG_LEVEL
+from config import LOG_DIR, LOG_LEVEL
 
 
-def setup_logging():
+def setup_logging(service_name: str):
     os.makedirs(LOG_DIR, exist_ok=True)
 
-    log_path = os.path.join(LOG_DIR, LOG_FILE)
+    log_path = os.path.join(LOG_DIR, f"{service_name}.log")
 
-    logger = logging.getLogger()
+    logger = logging.getLogger(service_name)
     logger.setLevel(LOG_LEVEL)
+
+    # Prevent duplicate handlers if reloaded
+    if logger.hasHandlers():
+        logger.handlers.clear()
 
     formatter = logging.Formatter(
         "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
     )
 
-    # Console Handler
+    # Console
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setFormatter(formatter)
 
-    # Rotating File Handler (5MB per file, keep 3 backups)
+    # File
     file_handler = RotatingFileHandler(
         log_path,
         maxBytes=5 * 1024 * 1024,

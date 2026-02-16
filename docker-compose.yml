@@ -1,13 +1,14 @@
 services:
   zookeeper:
-    image: confluentinc/cp-zookeeper:latest
+    image: confluentinc/cp-zookeeper:7.7.7
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
     networks:
       - net-heatbeat
 
   kafka:
-    image: confluentinc/cp-kafka:latest
+    image: confluentinc/cp-kafka:7.7.7
     container_name: kafka
     depends_on:
       - zookeeper
@@ -19,7 +20,20 @@ services:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "kafka-broker-api-versions --bootstrap-server localhost:9092 || exit 1",
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
 
   postgres:
     image: postgres:14-alpine
@@ -52,13 +66,8 @@ services:
       - ./app/logs:/app/logs
     env_file:
       - .env
-    #entrypoint:
-    #[
-    # "/app/producer/wait-for-kafka.sh",
-    #"python",
-    #"app/producer/data_generator.py",
-    #]
-    command: python producer/data_generator.py
+    command: sh -c "python producer/data_generator.py"
+    restart: on-failure
 
   consumer:
     build: .
@@ -67,7 +76,7 @@ services:
       - postgres
     networks:
       - net-heatbeat
-    command: python app/consumer/kafka_consumer.py
+    command: python consumer/kafka_consumer.py
 
   spark:
     image: octoenergy/pyspark:4.0.0

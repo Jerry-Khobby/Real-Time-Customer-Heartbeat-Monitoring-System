@@ -10,3 +10,649 @@
 2026-02-16 10:00:46,642 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
 2026-02-16 10:00:46,644 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
 2026-02-16 10:00:46,646 | WARNING | root | Kafka not available. Retry 2/5 in 4.0s...
+2026-02-16 16:06:38,556 | INFO | root | Starting Heartbeat Data Producer...
+2026-02-16 16:06:38,573 | INFO | root | Kafka Broker: kafka:9092
+2026-02-16 16:06:38,590 | INFO | root | Topic: heartbeats
+2026-02-16 16:06:38,611 | INFO | root | Simulating 25 patients
+2026-02-16 16:06:38,653 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:38,670 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:38,686 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:38,703 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:38,720 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:38,728 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:38,739 | WARNING | kafka.client | No node available during check_version; sleeping 0.07 secs
+2026-02-16 16:06:38,814 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:38,938 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:38,986 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:38,997 | WARNING | kafka.client | No node available during check_version; sleeping 0.04 secs
+2026-02-16 16:06:39,057 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:39,062 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:39,072 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:39,080 | WARNING | kafka.client | No node available during check_version; sleeping 0.33 secs
+2026-02-16 16:06:39,426 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:39,480 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:39,575 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:39,595 | WARNING | kafka.client | No node available during check_version; sleeping 0.54 secs
+2026-02-16 16:06:40,206 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:40,234 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:40,266 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:40,292 | WARNING | kafka.client | No node available during check_version; sleeping 0.34 secs
+2026-02-16 16:06:40,664 | WARNING | root | Kafka not available. Retry 1/5 in 2.0s...
+2026-02-16 16:06:42,696 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:42,764 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:42,776 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:42,802 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:42,829 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:42,867 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:42,904 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:42,960 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:42,976 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:43,017 | WARNING | kafka.client | No node available during check_version; sleeping 0.09 secs
+2026-02-16 16:06:43,141 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:43,164 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:43,206 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:43,221 | WARNING | kafka.client | No node available during check_version; sleeping 0.33 secs
+2026-02-16 16:06:43,567 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:43,619 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:43,635 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:43,683 | WARNING | kafka.client | No node available during check_version; sleeping 0.74 secs
+2026-02-16 16:06:44,460 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:44,470 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:44,493 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:44,535 | WARNING | kafka.client | No node available during check_version; sleeping 0.16 secs
+2026-02-16 16:06:44,709 | WARNING | root | Kafka not available. Retry 2/5 in 4.0s...
+2026-02-16 16:06:48,885 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:48,908 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:48,917 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:48,929 | WARNING | kafka.client | No node available during check_version; sleeping 0.01 secs
+2026-02-16 16:06:48,959 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:48,966 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:48,992 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:49,010 | WARNING | kafka.client | No node available during check_version; sleeping 0.06 secs
+2026-02-16 16:06:49,181 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:49,195 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:49,212 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:49,239 | WARNING | kafka.client | No node available during check_version; sleeping 0.16 secs
+2026-02-16 16:06:49,431 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:49,451 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:49,465 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:49,481 | WARNING | kafka.client | No node available during check_version; sleeping 0.35 secs
+2026-02-16 16:06:49,841 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:49,863 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:49,872 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:49,886 | WARNING | kafka.client | No node available during check_version; sleeping 0.76 secs
+2026-02-16 16:06:50,677 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:50,680 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:50,683 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:50,686 | WARNING | kafka.client | No node available during check_version; sleeping 0.20 secs
+2026-02-16 16:06:50,890 | WARNING | root | Kafka not available. Retry 3/5 in 6.0s...
+2026-02-16 16:06:57,009 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:57,016 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:57,020 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:57,043 | WARNING | kafka.client | No node available during check_version; sleeping 0.01 secs
+2026-02-16 16:06:57,053 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:57,056 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:57,060 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:57,065 | WARNING | kafka.client | No node available during check_version; sleeping 0.08 secs
+2026-02-16 16:06:57,151 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:57,156 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:57,159 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:57,163 | WARNING | kafka.client | No node available during check_version; sleeping 0.23 secs
+2026-02-16 16:06:57,399 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:57,403 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:57,407 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:57,409 | WARNING | kafka.client | No node available during check_version; sleeping 0.42 secs
+2026-02-16 16:06:57,839 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:57,842 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:57,843 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:57,848 | WARNING | kafka.client | No node available during check_version; sleeping 0.70 secs
+2026-02-16 16:06:58,559 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:06:58,570 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:06:58,576 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:06:58,580 | WARNING | kafka.client | No node available during check_version; sleeping 0.43 secs
+2026-02-16 16:06:59,017 | WARNING | root | Kafka not available. Retry 4/5 in 8.0s...
+2026-02-16 16:07:07,026 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:07:07,054 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=kafka:9092 <checking_api_versions_recv> [IPv4 ('172.22.0.4', 9092)]>: Broker version identified as 2.6
+2026-02-16 16:07:07,056 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.22.0.4', 9092)]>: Connection complete.
+2026-02-16 16:07:07,065 | INFO | root | Connected to Kafka successfully.
+2026-02-16 16:07:07,206 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-5, node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.22.0.4', 9092)]>: connecting to kafka:9092 [('172.22.0.4', 9092) IPv4]
+2026-02-16 16:07:07,209 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-5, node_id=1 host=kafka:9092 <connected> [IPv4 ('172.22.0.4', 9092)]>: Connection complete.
+2026-02-16 16:07:07,215 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.22.0.4', 9092)]>: Closing connection. 
+2026-02-16 16:07:07,357 | WARNING | kafka.cluster | Topic heartbeats is not available during auto-create initialization
+2026-02-16 16:07:07,573 | WARNING | kafka.cluster | Topic heartbeats is not available during auto-create initialization
+2026-02-16 16:07:07,731 | WARNING | kafka.cluster | Topic heartbeats is not available during auto-create initialization
+2026-02-16 16:07:07,854 | WARNING | kafka.cluster | Topic heartbeats is not available during auto-create initialization
+2026-02-16 16:07:07,991 | WARNING | kafka.cluster | Topic heartbeats is not available during auto-create initialization
+2026-02-16 16:07:08,251 | INFO | root | Sent → patient_id=12 heart_rate=68 status=normal partition=0
+2026-02-16 16:07:08,798 | INFO | root | Sent → patient_id=5 heart_rate=70 status=normal partition=0
+2026-02-16 16:07:10,209 | INFO | root | Sent → patient_id=8 heart_rate=62 status=normal partition=0
+2026-02-16 16:07:11,176 | INFO | root | Sent → patient_id=25 heart_rate=75 status=normal partition=0
+2026-02-16 16:07:11,978 | INFO | root | Sent → patient_id=22 heart_rate=80 status=normal partition=0
+2026-02-16 16:07:13,230 | INFO | root | Sent → patient_id=4 heart_rate=96 status=normal partition=0
+2026-02-16 16:07:14,204 | INFO | root | Sent → patient_id=21 heart_rate=81 status=normal partition=0
+2026-02-16 16:07:15,274 | INFO | root | Sent → patient_id=21 heart_rate=60 status=normal partition=0
+2026-02-16 16:07:16,461 | INFO | root | Sent → patient_id=11 heart_rate=38 status=bradycardia partition=0
+2026-02-16 16:07:17,113 | INFO | root | Sent → patient_id=7 heart_rate=86 status=normal partition=0
+2026-02-16 16:07:18,062 | INFO | root | Sent → patient_id=1 heart_rate=93 status=normal partition=0
+2026-02-16 16:07:19,546 | INFO | root | Sent → patient_id=20 heart_rate=78 status=normal partition=0
+2026-02-16 16:07:20,523 | INFO | root | Sent → patient_id=15 heart_rate=74 status=normal partition=0
+2026-02-16 16:07:21,484 | INFO | root | Sent → patient_id=4 heart_rate=78 status=normal partition=0
+2026-02-16 16:07:22,321 | INFO | root | Sent → patient_id=19 heart_rate=61 status=normal partition=0
+2026-02-16 16:07:22,982 | INFO | root | Sent → patient_id=25 heart_rate=99 status=normal partition=0
+2026-02-16 16:07:24,165 | INFO | root | Sent → patient_id=9 heart_rate=60 status=normal partition=0
+2026-02-16 16:07:25,269 | INFO | root | Sent → patient_id=12 heart_rate=89 status=normal partition=0
+2026-02-16 16:07:26,002 | INFO | root | Sent → patient_id=4 heart_rate=73 status=normal partition=0
+2026-02-16 16:07:27,108 | INFO | root | Sent → patient_id=17 heart_rate=93 status=normal partition=0
+2026-02-16 16:07:28,610 | INFO | root | Sent → patient_id=2 heart_rate=64 status=normal partition=0
+2026-02-16 16:07:29,238 | INFO | root | Sent → patient_id=1 heart_rate=80 status=normal partition=0
+2026-02-16 16:07:30,030 | INFO | root | Sent → patient_id=13 heart_rate=84 status=normal partition=0
+2026-02-16 16:07:30,667 | INFO | root | Sent → patient_id=1 heart_rate=84 status=normal partition=0
+2026-02-16 16:07:31,350 | INFO | root | Sent → patient_id=16 heart_rate=93 status=normal partition=0
+2026-02-16 16:07:31,971 | INFO | root | Sent → patient_id=20 heart_rate=68 status=normal partition=0
+2026-02-16 16:07:32,747 | INFO | root | Sent → patient_id=4 heart_rate=95 status=normal partition=0
+2026-02-16 16:07:33,756 | INFO | root | Sent → patient_id=3 heart_rate=87 status=normal partition=0
+2026-02-16 16:07:35,163 | INFO | root | Sent → patient_id=9 heart_rate=36 status=bradycardia partition=0
+2026-02-16 16:07:36,176 | INFO | root | Sent → patient_id=21 heart_rate=97 status=normal partition=0
+2026-02-16 16:07:37,251 | INFO | root | Sent → patient_id=6 heart_rate=95 status=normal partition=0
+2026-02-16 16:07:38,112 | INFO | root | Sent → patient_id=9 heart_rate=78 status=normal partition=0
+2026-02-16 16:07:39,110 | INFO | root | Sent → patient_id=5 heart_rate=88 status=normal partition=0
+2026-02-16 16:07:39,796 | INFO | root | Sent → patient_id=7 heart_rate=81 status=normal partition=0
+2026-02-16 16:07:40,853 | INFO | root | Sent → patient_id=1 heart_rate=62 status=normal partition=0
+2026-02-16 16:07:42,087 | INFO | root | Sent → patient_id=15 heart_rate=92 status=normal partition=0
+2026-02-16 16:07:43,206 | INFO | root | Sent → patient_id=21 heart_rate=76 status=normal partition=0
+2026-02-16 16:07:44,042 | INFO | root | Sent → patient_id=3 heart_rate=122 status=tachycardia partition=0
+2026-02-16 16:07:45,292 | INFO | root | Sent → patient_id=21 heart_rate=95 status=normal partition=0
+2026-02-16 16:07:46,762 | INFO | root | Sent → patient_id=9 heart_rate=76 status=normal partition=0
+2026-02-16 16:07:48,275 | INFO | root | Sent → patient_id=4 heart_rate=96 status=normal partition=0
+2026-02-16 16:07:49,753 | INFO | root | Sent → patient_id=23 heart_rate=83 status=normal partition=0
+2026-02-16 16:07:50,889 | INFO | root | Sent → patient_id=2 heart_rate=67 status=normal partition=0
+2026-02-16 16:07:51,950 | INFO | root | Sent → patient_id=8 heart_rate=61 status=normal partition=0
+2026-02-16 16:07:53,038 | INFO | root | Sent → patient_id=3 heart_rate=100 status=normal partition=0
+2026-02-16 16:07:54,085 | INFO | root | Sent → patient_id=25 heart_rate=60 status=normal partition=0
+2026-02-16 16:07:54,863 | INFO | root | Sent → patient_id=24 heart_rate=64 status=normal partition=0
+2026-02-16 16:07:56,313 | INFO | root | Sent → patient_id=25 heart_rate=62 status=normal partition=0
+2026-02-16 16:07:57,789 | INFO | root | Sent → patient_id=12 heart_rate=75 status=normal partition=0
+2026-02-16 16:07:59,291 | INFO | root | Sent → patient_id=4 heart_rate=64 status=normal partition=0
+2026-02-16 16:08:00,189 | INFO | root | Sent → patient_id=12 heart_rate=95 status=normal partition=0
+2026-02-16 16:08:00,997 | INFO | root | Sent → patient_id=23 heart_rate=98 status=normal partition=0
+2026-02-16 16:08:01,595 | INFO | root | Sent → patient_id=13 heart_rate=85 status=normal partition=0
+2026-02-16 16:08:02,769 | INFO | root | Sent → patient_id=20 heart_rate=66 status=normal partition=0
+2026-02-16 16:08:03,739 | INFO | root | Sent → patient_id=17 heart_rate=62 status=normal partition=0
+2026-02-16 16:08:04,772 | INFO | root | Sent → patient_id=7 heart_rate=68 status=normal partition=0
+2026-02-16 16:08:05,864 | INFO | root | Sent → patient_id=23 heart_rate=92 status=normal partition=0
+2026-02-16 16:08:06,522 | INFO | root | Sent → patient_id=9 heart_rate=86 status=normal partition=0
+2026-02-16 16:08:07,038 | INFO | root | Sent → patient_id=14 heart_rate=63 status=normal partition=0
+2026-02-16 16:08:08,089 | INFO | root | Sent → patient_id=10 heart_rate=97 status=normal partition=0
+2026-02-16 16:08:09,598 | INFO | root | Sent → patient_id=10 heart_rate=99 status=normal partition=0
+2026-02-16 16:08:10,500 | INFO | root | Sent → patient_id=25 heart_rate=70 status=normal partition=0
+2026-02-16 16:08:11,719 | INFO | root | Sent → patient_id=4 heart_rate=97 status=normal partition=0
+2026-02-16 16:24:37,530 | INFO | root | Starting Heartbeat Data Producer...
+2026-02-16 16:24:37,532 | INFO | root | Kafka Broker: kafka:9092
+2026-02-16 16:24:37,536 | INFO | root | Topic: heartbeats
+2026-02-16 16:24:37,539 | INFO | root | Simulating 25 patients
+2026-02-16 16:24:37,560 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:37,563 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:37,569 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:37,572 | WARNING | kafka.client | No node available during check_version; sleeping 0.03 secs
+2026-02-16 16:24:37,603 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:37,606 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:37,609 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:37,617 | WARNING | kafka.client | No node available during check_version; sleeping 0.08 secs
+2026-02-16 16:24:37,701 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:37,782 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:37,786 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:37,789 | WARNING | kafka.client | No node available during check_version; sleeping 0.14 secs
+2026-02-16 16:24:37,933 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:37,935 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:37,938 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:37,941 | WARNING | kafka.client | No node available during check_version; sleeping 0.33 secs
+2026-02-16 16:24:38,272 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:38,275 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:38,277 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:38,279 | WARNING | kafka.client | No node available during check_version; sleeping 0.64 secs
+2026-02-16 16:24:38,919 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:38,921 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:38,924 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:38,926 | WARNING | kafka.client | No node available during check_version; sleeping 0.62 secs
+2026-02-16 16:24:39,545 | WARNING | root | Kafka not available. Retry 1/5 in 2.0s...
+2026-02-16 16:24:41,549 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:41,552 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:41,554 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:41,557 | WARNING | kafka.client | No node available during check_version; sleeping 0.03 secs
+2026-02-16 16:24:41,595 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:41,598 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:41,600 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:41,603 | WARNING | kafka.client | No node available during check_version; sleeping 0.10 secs
+2026-02-16 16:24:41,707 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:41,709 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:41,711 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:41,714 | WARNING | kafka.client | No node available during check_version; sleeping 0.18 secs
+2026-02-16 16:24:41,894 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:41,897 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:41,899 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:41,901 | WARNING | kafka.client | No node available during check_version; sleeping 0.33 secs
+2026-02-16 16:24:42,239 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:42,302 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:42,319 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:42,360 | WARNING | kafka.client | No node available during check_version; sleeping 0.65 secs
+2026-02-16 16:24:43,014 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:43,016 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:43,020 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:43,022 | WARNING | kafka.client | No node available during check_version; sleeping 0.53 secs
+2026-02-16 16:24:43,551 | WARNING | root | Kafka not available. Retry 2/5 in 4.0s...
+2026-02-16 16:24:47,564 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:47,589 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:47,594 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:47,619 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:47,621 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:47,623 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:47,625 | WARNING | kafka.client | No node available during check_version; sleeping 0.08 secs
+2026-02-16 16:24:47,718 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:47,719 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:47,721 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:47,723 | WARNING | kafka.client | No node available during check_version; sleeping 0.16 secs
+2026-02-16 16:24:47,890 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:47,892 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:47,894 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:47,896 | WARNING | kafka.client | No node available during check_version; sleeping 0.45 secs
+2026-02-16 16:24:48,349 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:48,352 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:48,355 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:48,357 | WARNING | kafka.client | No node available during check_version; sleeping 0.83 secs
+2026-02-16 16:24:49,193 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:49,195 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2026-02-16 16:24:49,196 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2026-02-16 16:24:49,198 | WARNING | kafka.client | No node available during check_version; sleeping 0.37 secs
+2026-02-16 16:24:49,564 | WARNING | root | Kafka not available. Retry 3/5 in 6.0s...
+2026-02-16 16:24:55,565 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:55,571 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <checking_api_versions_recv> [IPv4 ('172.22.0.5', 9092)]>: Broker version identified as 2.6
+2026-02-16 16:24:55,572 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.22.0.5', 9092)]>: Connection complete.
+2026-02-16 16:24:55,574 | INFO | root | Connected to Kafka successfully.
+2026-02-16 16:24:55,681 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.22.0.5', 9092)]>: connecting to kafka:9092 [('172.22.0.5', 9092) IPv4]
+2026-02-16 16:24:55,682 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=1 host=kafka:9092 <connected> [IPv4 ('172.22.0.5', 9092)]>: Connection complete.
+2026-02-16 16:24:55,684 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.22.0.5', 9092)]>: Closing connection. 
+2026-02-16 16:24:55,738 | INFO | root | Sent → patient_id=25 heart_rate=88 status=normal partition=0
+2026-02-16 16:24:57,144 | INFO | root | Sent → patient_id=2 heart_rate=83 status=normal partition=0
+2026-02-16 16:24:57,717 | INFO | root | Sent → patient_id=16 heart_rate=99 status=normal partition=0
+2026-02-16 16:24:58,520 | INFO | root | Sent → patient_id=4 heart_rate=91 status=normal partition=0
+2026-02-16 16:24:59,244 | INFO | root | Sent → patient_id=1 heart_rate=78 status=normal partition=0
+2026-02-16 16:25:00,287 | INFO | root | Sent → patient_id=19 heart_rate=64 status=normal partition=0
+2026-02-16 16:25:01,503 | INFO | root | Sent → patient_id=3 heart_rate=63 status=normal partition=0
+2026-02-16 16:25:02,407 | INFO | root | Sent → patient_id=20 heart_rate=87 status=normal partition=0
+2026-02-16 16:25:03,425 | INFO | root | Sent → patient_id=18 heart_rate=63 status=normal partition=0
+2026-02-16 16:25:04,635 | INFO | root | Sent → patient_id=6 heart_rate=65 status=normal partition=0
+2026-02-16 16:25:05,414 | INFO | root | Sent → patient_id=4 heart_rate=79 status=normal partition=0
+2026-02-16 16:25:06,027 | INFO | root | Sent → patient_id=15 heart_rate=62 status=normal partition=0
+2026-02-16 16:25:06,800 | INFO | root | Sent → patient_id=1 heart_rate=67 status=normal partition=0
+2026-02-16 16:25:08,117 | INFO | root | Sent → patient_id=4 heart_rate=79 status=normal partition=0
+2026-02-16 16:25:09,449 | INFO | root | Sent → patient_id=1 heart_rate=86 status=normal partition=0
+2026-02-16 16:25:10,625 | INFO | root | Sent → patient_id=1 heart_rate=69 status=normal partition=0
+2026-02-16 16:25:11,333 | INFO | root | Sent → patient_id=2 heart_rate=68 status=normal partition=0
+2026-02-16 16:25:12,184 | INFO | root | Sent → patient_id=2 heart_rate=76 status=normal partition=0
+2026-02-16 16:25:13,411 | INFO | root | Sent → patient_id=4 heart_rate=40 status=bradycardia partition=0
+2026-02-16 16:25:14,266 | INFO | root | Sent → patient_id=2 heart_rate=65 status=normal partition=0
+2026-02-16 16:25:15,659 | INFO | root | Sent → patient_id=7 heart_rate=77 status=normal partition=0
+2026-02-16 16:25:16,653 | INFO | root | Sent → patient_id=9 heart_rate=67 status=normal partition=0
+2026-02-16 16:25:18,120 | INFO | root | Sent → patient_id=13 heart_rate=97 status=normal partition=0
+2026-02-16 16:25:19,037 | INFO | root | Sent → patient_id=9 heart_rate=151 status=tachycardia partition=0
+2026-02-16 16:25:19,666 | INFO | root | Sent → patient_id=18 heart_rate=94 status=normal partition=0
+2026-02-16 16:25:20,820 | INFO | root | Sent → patient_id=3 heart_rate=90 status=normal partition=0
+2026-02-16 16:25:22,283 | INFO | root | Sent → patient_id=4 heart_rate=71 status=normal partition=0
+2026-02-16 16:25:23,252 | INFO | root | Sent → patient_id=12 heart_rate=87 status=normal partition=0
+2026-02-16 16:25:24,025 | INFO | root | Sent → patient_id=5 heart_rate=81 status=normal partition=0
+2026-02-16 16:25:24,544 | INFO | root | Sent → patient_id=3 heart_rate=89 status=normal partition=0
+2026-02-16 16:25:25,867 | INFO | root | Sent → patient_id=14 heart_rate=77 status=normal partition=0
+2026-02-16 16:25:26,917 | INFO | root | Sent → patient_id=20 heart_rate=70 status=normal partition=0
+2026-02-16 16:25:28,405 | INFO | root | Sent → patient_id=22 heart_rate=99 status=normal partition=0
+2026-02-16 16:25:29,601 | INFO | root | Sent → patient_id=4 heart_rate=98 status=normal partition=0
+2026-02-16 16:25:30,953 | INFO | root | Sent → patient_id=9 heart_rate=82 status=normal partition=0
+2026-02-16 16:25:31,844 | INFO | root | Sent → patient_id=14 heart_rate=91 status=normal partition=0
+2026-02-16 16:25:33,107 | INFO | root | Sent → patient_id=18 heart_rate=48 status=bradycardia partition=0
+2026-02-16 16:25:33,936 | INFO | root | Sent → patient_id=14 heart_rate=64 status=normal partition=0
+2026-02-16 16:25:35,015 | INFO | root | Sent → patient_id=19 heart_rate=73 status=normal partition=0
+2026-02-16 16:25:35,815 | INFO | root | Sent → patient_id=20 heart_rate=70 status=normal partition=0
+2026-02-16 16:25:37,031 | INFO | root | Sent → patient_id=22 heart_rate=100 status=normal partition=0
+2026-02-16 16:25:37,693 | INFO | root | Sent → patient_id=25 heart_rate=88 status=normal partition=0
+2026-02-16 16:25:38,726 | INFO | root | Sent → patient_id=19 heart_rate=71 status=normal partition=0
+2026-02-16 16:25:39,894 | INFO | root | Sent → patient_id=9 heart_rate=87 status=normal partition=0
+2026-02-16 16:25:41,313 | INFO | root | Sent → patient_id=11 heart_rate=69 status=normal partition=0
+2026-02-16 16:25:41,971 | INFO | root | Sent → patient_id=21 heart_rate=92 status=normal partition=0
+2026-02-16 16:25:43,278 | INFO | root | Sent → patient_id=18 heart_rate=83 status=normal partition=0
+2026-02-16 16:25:44,472 | INFO | root | Sent → patient_id=8 heart_rate=90 status=normal partition=0
+2026-02-16 16:25:45,828 | INFO | root | Sent → patient_id=4 heart_rate=96 status=normal partition=0
+2026-02-16 16:25:46,976 | INFO | root | Sent → patient_id=11 heart_rate=97 status=normal partition=0
+2026-02-16 16:25:47,684 | INFO | root | Sent → patient_id=13 heart_rate=73 status=normal partition=0
+2026-02-16 16:25:48,601 | INFO | root | Sent → patient_id=8 heart_rate=72 status=normal partition=0
+2026-02-16 16:25:49,674 | INFO | root | Sent → patient_id=10 heart_rate=97 status=normal partition=0
+2026-02-16 16:25:50,411 | INFO | root | Sent → patient_id=5 heart_rate=89 status=normal partition=0
+2026-02-16 16:25:51,501 | INFO | root | Sent → patient_id=2 heart_rate=83 status=normal partition=0
+2026-02-16 16:25:53,001 | INFO | root | Sent → patient_id=20 heart_rate=92 status=normal partition=0
+2026-02-16 16:25:53,878 | INFO | root | Sent → patient_id=24 heart_rate=89 status=normal partition=0
+2026-02-16 16:25:55,023 | INFO | root | Sent → patient_id=5 heart_rate=77 status=normal partition=0
+2026-02-16 16:25:56,127 | INFO | root | Sent → patient_id=22 heart_rate=67 status=normal partition=0
+2026-02-16 16:25:57,188 | INFO | root | Sent → patient_id=5 heart_rate=130 status=tachycardia partition=0
+2026-02-16 16:25:57,800 | INFO | root | Sent → patient_id=14 heart_rate=75 status=normal partition=0
+2026-02-16 16:25:59,200 | INFO | root | Sent → patient_id=21 heart_rate=83 status=normal partition=0
+2026-02-16 16:26:00,351 | INFO | root | Sent → patient_id=5 heart_rate=62 status=normal partition=0
+2026-02-16 16:26:01,547 | INFO | root | Sent → patient_id=12 heart_rate=90 status=normal partition=0
+2026-02-16 16:26:02,320 | INFO | root | Sent → patient_id=6 heart_rate=43 status=bradycardia partition=0
+2026-02-16 16:26:03,002 | INFO | root | Sent → patient_id=2 heart_rate=93 status=normal partition=0
+2026-02-16 16:26:04,259 | INFO | root | Sent → patient_id=13 heart_rate=50 status=bradycardia partition=0
+2026-02-16 16:26:05,081 | INFO | root | Sent → patient_id=23 heart_rate=87 status=normal partition=0
+2026-02-16 16:26:05,723 | INFO | root | Sent → patient_id=20 heart_rate=99 status=normal partition=0
+2026-02-16 16:26:07,002 | INFO | root | Sent → patient_id=24 heart_rate=64 status=normal partition=0
+2026-02-16 16:26:08,507 | INFO | root | Sent → patient_id=2 heart_rate=84 status=normal partition=0
+2026-02-16 16:26:09,369 | INFO | root | Sent → patient_id=21 heart_rate=83 status=normal partition=0
+2026-02-16 16:26:10,672 | INFO | root | Sent → patient_id=5 heart_rate=88 status=normal partition=0
+2026-02-16 16:26:11,840 | INFO | root | Sent → patient_id=17 heart_rate=63 status=normal partition=0
+2026-02-16 16:26:12,394 | INFO | root | Sent → patient_id=23 heart_rate=86 status=normal partition=0
+2026-02-16 16:26:13,514 | INFO | root | Sent → patient_id=8 heart_rate=98 status=normal partition=0
+2026-02-16 16:26:14,707 | INFO | root | Sent → patient_id=6 heart_rate=60 status=normal partition=0
+2026-02-16 16:26:15,514 | INFO | root | Sent → patient_id=17 heart_rate=60 status=normal partition=0
+2026-02-16 16:26:16,239 | INFO | root | Sent → patient_id=5 heart_rate=39 status=bradycardia partition=0
+2026-02-16 16:26:17,751 | INFO | root | Sent → patient_id=23 heart_rate=63 status=normal partition=0
+2026-02-16 16:26:18,555 | INFO | root | Sent → patient_id=19 heart_rate=90 status=normal partition=0
+2026-02-16 16:26:19,938 | INFO | root | Sent → patient_id=5 heart_rate=63 status=normal partition=0
+2026-02-16 16:26:20,641 | INFO | root | Sent → patient_id=11 heart_rate=91 status=normal partition=0
+2026-02-16 16:26:21,715 | INFO | root | Sent → patient_id=13 heart_rate=78 status=normal partition=0
+2026-02-16 16:26:23,087 | INFO | root | Sent → patient_id=19 heart_rate=67 status=normal partition=0
+2026-02-16 16:26:24,276 | INFO | root | Sent → patient_id=24 heart_rate=95 status=normal partition=0
+2026-02-16 16:26:24,987 | INFO | root | Sent → patient_id=13 heart_rate=65 status=normal partition=0
+2026-02-16 16:26:26,165 | INFO | root | Sent → patient_id=20 heart_rate=69 status=normal partition=0
+2026-02-16 16:26:27,380 | INFO | root | Sent → patient_id=8 heart_rate=93 status=normal partition=0
+2026-02-16 16:26:28,215 | INFO | root | Sent → patient_id=14 heart_rate=77 status=normal partition=0
+2026-02-16 16:26:28,819 | INFO | root | Sent → patient_id=10 heart_rate=68 status=normal partition=0
+2026-02-16 16:26:29,527 | INFO | root | Sent → patient_id=1 heart_rate=74 status=normal partition=0
+2026-02-16 16:26:30,209 | INFO | root | Sent → patient_id=9 heart_rate=78 status=normal partition=0
+2026-02-16 16:26:31,288 | INFO | root | Sent → patient_id=25 heart_rate=135 status=tachycardia partition=0
+2026-02-16 16:26:31,984 | INFO | root | Sent → patient_id=22 heart_rate=99 status=normal partition=0
+2026-02-16 16:26:33,389 | INFO | root | Sent → patient_id=1 heart_rate=63 status=normal partition=0
+2026-02-16 16:26:33,947 | INFO | root | Sent → patient_id=7 heart_rate=76 status=normal partition=0
+2026-02-16 16:26:35,188 | INFO | root | Sent → patient_id=11 heart_rate=92 status=normal partition=0
+2026-02-16 16:26:36,482 | INFO | root | Sent → patient_id=14 heart_rate=77 status=normal partition=0
+2026-02-16 16:26:37,515 | INFO | root | Sent → patient_id=9 heart_rate=93 status=normal partition=0
+2026-02-16 16:26:38,560 | INFO | root | Sent → patient_id=5 heart_rate=94 status=normal partition=0
+2026-02-16 16:26:39,175 | INFO | root | Sent → patient_id=1 heart_rate=63 status=normal partition=0
+2026-02-16 16:26:39,880 | INFO | root | Sent → patient_id=13 heart_rate=71 status=normal partition=0
+2026-02-16 16:26:40,814 | INFO | root | Sent → patient_id=14 heart_rate=62 status=normal partition=0
+2026-02-16 16:26:41,390 | INFO | root | Sent → patient_id=10 heart_rate=91 status=normal partition=0
+2026-02-16 16:26:42,440 | INFO | root | Sent → patient_id=17 heart_rate=99 status=normal partition=0
+2026-02-16 16:26:43,720 | INFO | root | Sent → patient_id=18 heart_rate=83 status=normal partition=0
+2026-02-16 16:26:44,295 | INFO | root | Sent → patient_id=9 heart_rate=62 status=normal partition=0
+2026-02-16 16:26:45,249 | INFO | root | Sent → patient_id=21 heart_rate=96 status=normal partition=0
+2026-02-16 16:26:46,335 | INFO | root | Sent → patient_id=10 heart_rate=82 status=normal partition=0
+2026-02-16 16:26:47,830 | INFO | root | Sent → patient_id=24 heart_rate=93 status=normal partition=0
+2026-02-16 16:26:48,730 | INFO | root | Sent → patient_id=24 heart_rate=71 status=normal partition=0
+2026-02-16 16:26:49,551 | INFO | root | Sent → patient_id=2 heart_rate=94 status=normal partition=0
+2026-02-16 16:26:50,428 | INFO | root | Sent → patient_id=18 heart_rate=60 status=normal partition=0
+2026-02-16 16:26:51,324 | INFO | root | Sent → patient_id=11 heart_rate=71 status=normal partition=0
+2026-02-16 16:26:52,335 | INFO | root | Sent → patient_id=7 heart_rate=96 status=normal partition=0
+2026-02-16 16:26:53,438 | INFO | root | Sent → patient_id=7 heart_rate=67 status=normal partition=0
+2026-02-16 16:26:54,193 | INFO | root | Sent → patient_id=7 heart_rate=98 status=normal partition=0
+2026-02-16 16:26:55,532 | INFO | root | Sent → patient_id=17 heart_rate=85 status=normal partition=0
+2026-02-16 16:26:56,420 | INFO | root | Sent → patient_id=7 heart_rate=60 status=normal partition=0
+2026-02-16 16:26:57,421 | INFO | root | Sent → patient_id=2 heart_rate=85 status=normal partition=0
+2026-02-16 16:26:58,326 | INFO | root | Sent → patient_id=22 heart_rate=82 status=normal partition=0
+2026-02-16 16:26:59,306 | INFO | root | Sent → patient_id=15 heart_rate=63 status=normal partition=0
+2026-02-16 16:27:00,096 | INFO | root | Sent → patient_id=22 heart_rate=82 status=normal partition=0
+2026-02-16 16:27:01,228 | INFO | root | Sent → patient_id=8 heart_rate=145 status=tachycardia partition=0
+2026-02-16 16:27:02,299 | INFO | root | Sent → patient_id=25 heart_rate=75 status=normal partition=0
+2026-02-16 16:27:03,446 | INFO | root | Sent → patient_id=22 heart_rate=81 status=normal partition=0
+2026-02-16 16:27:04,354 | INFO | root | Sent → patient_id=18 heart_rate=37 status=bradycardia partition=0
+2026-02-16 16:27:04,942 | INFO | root | Sent → patient_id=6 heart_rate=63 status=normal partition=0
+2026-02-16 16:27:05,900 | INFO | root | Sent → patient_id=1 heart_rate=146 status=tachycardia partition=0
+2026-02-16 16:27:07,111 | INFO | root | Sent → patient_id=6 heart_rate=60 status=normal partition=0
+2026-02-16 16:27:08,102 | INFO | root | Sent → patient_id=4 heart_rate=61 status=normal partition=0
+2026-02-16 16:27:09,075 | INFO | root | Sent → patient_id=10 heart_rate=71 status=normal partition=0
+2026-02-16 16:27:10,046 | INFO | root | Sent → patient_id=18 heart_rate=90 status=normal partition=0
+2026-02-16 16:27:11,237 | INFO | root | Sent → patient_id=13 heart_rate=90 status=normal partition=0
+2026-02-16 16:27:12,522 | INFO | root | Sent → patient_id=23 heart_rate=71 status=normal partition=0
+2026-02-16 16:27:13,369 | INFO | root | Sent → patient_id=3 heart_rate=148 status=tachycardia partition=0
+2026-02-16 16:27:14,347 | INFO | root | Sent → patient_id=1 heart_rate=85 status=normal partition=0
+2026-02-16 16:27:15,257 | INFO | root | Sent → patient_id=5 heart_rate=69 status=normal partition=0
+2026-02-16 16:27:15,980 | INFO | root | Sent → patient_id=3 heart_rate=100 status=normal partition=0
+2026-02-16 16:27:16,844 | INFO | root | Sent → patient_id=24 heart_rate=160 status=tachycardia partition=0
+2026-02-16 16:27:17,761 | INFO | root | Sent → patient_id=16 heart_rate=81 status=normal partition=0
+2026-02-16 16:27:18,902 | INFO | root | Sent → patient_id=3 heart_rate=156 status=tachycardia partition=0
+2026-02-16 16:27:19,629 | INFO | root | Sent → patient_id=23 heart_rate=67 status=normal partition=0
+2026-02-16 16:27:20,675 | INFO | root | Sent → patient_id=17 heart_rate=156 status=tachycardia partition=0
+2026-02-16 16:27:21,218 | INFO | root | Sent → patient_id=8 heart_rate=81 status=normal partition=0
+2026-02-16 16:27:21,841 | INFO | root | Sent → patient_id=1 heart_rate=146 status=tachycardia partition=0
+2026-02-16 16:27:22,552 | INFO | root | Sent → patient_id=14 heart_rate=92 status=normal partition=0
+2026-02-16 16:27:23,356 | INFO | root | Sent → patient_id=24 heart_rate=66 status=normal partition=0
+2026-02-16 16:27:24,816 | INFO | root | Sent → patient_id=2 heart_rate=85 status=normal partition=0
+2026-02-16 16:27:26,312 | INFO | root | Sent → patient_id=18 heart_rate=100 status=normal partition=0
+2026-02-16 16:27:27,008 | INFO | root | Sent → patient_id=21 heart_rate=78 status=normal partition=0
+2026-02-16 16:27:27,856 | INFO | root | Sent → patient_id=1 heart_rate=97 status=normal partition=0
+2026-02-16 16:27:28,743 | INFO | root | Sent → patient_id=9 heart_rate=90 status=normal partition=0
+2026-02-16 16:27:30,092 | INFO | root | Sent → patient_id=15 heart_rate=91 status=normal partition=0
+2026-02-16 16:27:30,695 | INFO | root | Sent → patient_id=19 heart_rate=95 status=normal partition=0
+2026-02-16 16:27:31,860 | INFO | root | Sent → patient_id=5 heart_rate=89 status=normal partition=0
+2026-02-16 16:27:33,106 | INFO | root | Sent → patient_id=11 heart_rate=61 status=normal partition=0
+2026-02-16 16:27:34,203 | INFO | root | Sent → patient_id=17 heart_rate=99 status=normal partition=0
+2026-02-16 16:27:34,767 | INFO | root | Sent → patient_id=4 heart_rate=76 status=normal partition=0
+2026-02-16 16:27:35,998 | INFO | root | Sent → patient_id=14 heart_rate=74 status=normal partition=0
+2026-02-16 16:27:36,771 | INFO | root | Sent → patient_id=22 heart_rate=84 status=normal partition=0
+2026-02-16 16:27:38,293 | INFO | root | Sent → patient_id=6 heart_rate=71 status=normal partition=0
+2026-02-16 16:27:38,956 | INFO | root | Sent → patient_id=19 heart_rate=66 status=normal partition=0
+2026-02-16 16:27:40,151 | INFO | root | Sent → patient_id=24 heart_rate=68 status=normal partition=0
+2026-02-16 16:27:40,837 | INFO | root | Sent → patient_id=22 heart_rate=64 status=normal partition=0
+2026-02-16 16:27:41,827 | INFO | root | Sent → patient_id=23 heart_rate=83 status=normal partition=0
+2026-02-16 16:27:42,457 | INFO | root | Sent → patient_id=4 heart_rate=77 status=normal partition=0
+2026-02-16 16:27:43,452 | INFO | root | Sent → patient_id=15 heart_rate=67 status=normal partition=0
+2026-02-16 16:27:44,312 | INFO | root | Sent → patient_id=17 heart_rate=92 status=normal partition=0
+2026-02-16 16:27:45,488 | INFO | root | Sent → patient_id=17 heart_rate=84 status=normal partition=0
+2026-02-16 16:27:46,765 | INFO | root | Sent → patient_id=9 heart_rate=78 status=normal partition=0
+2026-02-16 16:27:47,905 | INFO | root | Sent → patient_id=14 heart_rate=84 status=normal partition=0
+2026-02-16 16:27:48,681 | INFO | root | Sent → patient_id=13 heart_rate=95 status=normal partition=0
+2026-02-16 16:27:49,728 | INFO | root | Sent → patient_id=11 heart_rate=97 status=normal partition=0
+2026-02-16 16:27:50,632 | INFO | root | Sent → patient_id=23 heart_rate=85 status=normal partition=0
+2026-02-16 16:27:51,944 | INFO | root | Sent → patient_id=2 heart_rate=98 status=normal partition=0
+2026-02-16 16:27:52,594 | INFO | root | Sent → patient_id=15 heart_rate=50 status=bradycardia partition=0
+2026-02-16 16:27:54,061 | INFO | root | Sent → patient_id=24 heart_rate=96 status=normal partition=0
+2026-02-16 16:27:55,015 | INFO | root | Sent → patient_id=21 heart_rate=150 status=tachycardia partition=0
+2026-02-16 16:27:56,318 | INFO | root | Sent → patient_id=25 heart_rate=64 status=normal partition=0
+2026-02-16 16:27:56,936 | INFO | root | Sent → patient_id=25 heart_rate=81 status=normal partition=0
+2026-02-16 16:27:57,762 | INFO | root | Sent → patient_id=18 heart_rate=63 status=normal partition=0
+2026-02-16 16:27:58,527 | INFO | root | Sent → patient_id=14 heart_rate=63 status=normal partition=0
+2026-02-16 16:27:59,822 | INFO | root | Sent → patient_id=14 heart_rate=76 status=normal partition=0
+2026-02-16 16:28:00,417 | INFO | root | Sent → patient_id=10 heart_rate=83 status=normal partition=0
+2026-02-16 16:28:01,406 | INFO | root | Sent → patient_id=18 heart_rate=78 status=normal partition=0
+2026-02-16 16:28:02,271 | INFO | root | Sent → patient_id=25 heart_rate=86 status=normal partition=0
+2026-02-16 16:28:02,875 | INFO | root | Sent → patient_id=15 heart_rate=77 status=normal partition=0
+2026-02-16 16:28:04,100 | INFO | root | Sent → patient_id=18 heart_rate=77 status=normal partition=0
+2026-02-16 16:28:04,637 | INFO | root | Sent → patient_id=19 heart_rate=99 status=normal partition=0
+2026-02-16 16:28:06,021 | INFO | root | Sent → patient_id=22 heart_rate=79 status=normal partition=0
+2026-02-16 16:28:06,968 | INFO | root | Sent → patient_id=9 heart_rate=95 status=normal partition=0
+2026-02-16 16:28:07,703 | INFO | root | Sent → patient_id=20 heart_rate=61 status=normal partition=0
+2026-02-16 16:28:09,010 | INFO | root | Sent → patient_id=14 heart_rate=37 status=bradycardia partition=0
+2026-02-16 16:28:10,345 | INFO | root | Sent → patient_id=20 heart_rate=62 status=normal partition=0
+2026-02-16 16:28:11,738 | INFO | root | Sent → patient_id=5 heart_rate=89 status=normal partition=0
+2026-02-16 16:28:12,589 | INFO | root | Sent → patient_id=6 heart_rate=75 status=normal partition=0
+2026-02-16 16:28:13,661 | INFO | root | Sent → patient_id=9 heart_rate=97 status=normal partition=0
+2026-02-16 16:28:14,340 | INFO | root | Sent → patient_id=23 heart_rate=99 status=normal partition=0
+2026-02-16 16:28:15,550 | INFO | root | Sent → patient_id=7 heart_rate=81 status=normal partition=0
+2026-02-16 16:28:16,845 | INFO | root | Sent → patient_id=15 heart_rate=85 status=normal partition=0
+2026-02-16 16:28:18,238 | INFO | root | Sent → patient_id=5 heart_rate=89 status=normal partition=0
+2026-02-16 16:28:19,242 | INFO | root | Sent → patient_id=25 heart_rate=100 status=normal partition=0
+2026-02-16 16:28:19,991 | INFO | root | Sent → patient_id=5 heart_rate=96 status=normal partition=0
+2026-02-16 16:28:20,966 | INFO | root | Sent → patient_id=9 heart_rate=69 status=normal partition=0
+2026-02-16 16:28:21,585 | INFO | root | Sent → patient_id=13 heart_rate=96 status=normal partition=0
+2026-02-16 16:28:22,211 | INFO | root | Sent → patient_id=25 heart_rate=95 status=normal partition=0
+2026-02-16 16:28:23,195 | INFO | root | Sent → patient_id=3 heart_rate=67 status=normal partition=0
+2026-02-16 16:28:23,922 | INFO | root | Sent → patient_id=13 heart_rate=92 status=normal partition=0
+2026-02-16 16:28:25,255 | INFO | root | Sent → patient_id=17 heart_rate=92 status=normal partition=0
+2026-02-16 16:28:25,860 | INFO | root | Sent → patient_id=19 heart_rate=99 status=normal partition=0
+2026-02-16 16:28:26,918 | INFO | root | Sent → patient_id=11 heart_rate=68 status=normal partition=0
+2026-02-16 16:28:27,725 | INFO | root | Sent → patient_id=3 heart_rate=133 status=tachycardia partition=0
+2026-02-16 16:28:28,726 | INFO | root | Sent → patient_id=6 heart_rate=95 status=normal partition=0
+2026-02-16 16:28:29,811 | INFO | root | Sent → patient_id=18 heart_rate=83 status=normal partition=0
+2026-02-16 16:28:30,377 | INFO | root | Sent → patient_id=12 heart_rate=96 status=normal partition=0
+2026-02-16 16:28:31,594 | INFO | root | Sent → patient_id=23 heart_rate=68 status=normal partition=0
+2026-02-16 16:28:32,973 | INFO | root | Sent → patient_id=15 heart_rate=83 status=normal partition=0
+2026-02-16 16:28:34,167 | INFO | root | Sent → patient_id=17 heart_rate=77 status=normal partition=0
+2026-02-16 16:28:34,987 | INFO | root | Sent → patient_id=15 heart_rate=63 status=normal partition=0
+2026-02-16 16:28:35,562 | INFO | root | Sent → patient_id=2 heart_rate=65 status=normal partition=0
+2026-02-16 16:28:36,085 | INFO | root | Sent → patient_id=16 heart_rate=92 status=normal partition=0
+2026-02-16 16:28:37,149 | INFO | root | Sent → patient_id=5 heart_rate=90 status=normal partition=0
+2026-02-16 16:28:37,757 | INFO | root | Sent → patient_id=8 heart_rate=90 status=normal partition=0
+2026-02-16 16:28:38,405 | INFO | root | Sent → patient_id=16 heart_rate=85 status=normal partition=0
+2026-02-16 16:28:39,851 | INFO | root | Sent → patient_id=21 heart_rate=70 status=normal partition=0
+2026-02-16 16:28:40,408 | INFO | root | Sent → patient_id=4 heart_rate=65 status=normal partition=0
+2026-02-16 16:28:41,525 | INFO | root | Sent → patient_id=23 heart_rate=90 status=normal partition=0
+2026-02-16 16:28:42,769 | INFO | root | Sent → patient_id=8 heart_rate=82 status=normal partition=0
+2026-02-16 16:28:43,998 | INFO | root | Sent → patient_id=13 heart_rate=60 status=normal partition=0
+2026-02-16 16:28:45,216 | INFO | root | Sent → patient_id=3 heart_rate=82 status=normal partition=0
+2026-02-16 16:28:45,952 | INFO | root | Sent → patient_id=14 heart_rate=72 status=normal partition=0
+2026-02-16 16:28:46,922 | INFO | root | Sent → patient_id=23 heart_rate=62 status=normal partition=0
+2026-02-16 16:28:48,180 | INFO | root | Sent → patient_id=22 heart_rate=88 status=normal partition=0
+2026-02-16 16:28:49,643 | INFO | root | Sent → patient_id=1 heart_rate=84 status=normal partition=0
+2026-02-16 16:28:50,310 | INFO | root | Sent → patient_id=4 heart_rate=88 status=normal partition=0
+2026-02-16 16:28:50,980 | INFO | root | Sent → patient_id=21 heart_rate=89 status=normal partition=0
+2026-02-16 16:28:51,520 | INFO | root | Sent → patient_id=4 heart_rate=72 status=normal partition=0
+2026-02-16 16:28:52,819 | INFO | root | Sent → patient_id=12 heart_rate=97 status=normal partition=0
+2026-02-16 16:28:53,894 | INFO | root | Sent → patient_id=17 heart_rate=84 status=normal partition=0
+2026-02-16 16:28:54,430 | INFO | root | Sent → patient_id=8 heart_rate=80 status=normal partition=0
+2026-02-16 16:28:55,932 | INFO | root | Sent → patient_id=5 heart_rate=78 status=normal partition=0
+2026-02-16 16:28:57,145 | INFO | root | Sent → patient_id=22 heart_rate=99 status=normal partition=0
+2026-02-16 16:28:58,122 | INFO | root | Sent → patient_id=21 heart_rate=68 status=normal partition=0
+2026-02-16 16:28:58,741 | INFO | root | Sent → patient_id=25 heart_rate=98 status=normal partition=0
+2026-02-16 16:28:59,382 | INFO | root | Sent → patient_id=6 heart_rate=66 status=normal partition=0
+2026-02-16 16:29:00,847 | INFO | root | Sent → patient_id=7 heart_rate=97 status=normal partition=0
+2026-02-16 16:29:02,109 | INFO | root | Sent → patient_id=3 heart_rate=147 status=tachycardia partition=0
+2026-02-16 16:29:03,160 | INFO | root | Sent → patient_id=11 heart_rate=93 status=normal partition=0
+2026-02-16 16:29:03,953 | INFO | root | Sent → patient_id=25 heart_rate=84 status=normal partition=0
+2026-02-16 16:29:05,397 | INFO | root | Sent → patient_id=11 heart_rate=84 status=normal partition=0
+2026-02-16 16:29:06,855 | INFO | root | Sent → patient_id=18 heart_rate=93 status=normal partition=0
+2026-02-16 16:29:07,877 | INFO | root | Sent → patient_id=18 heart_rate=84 status=normal partition=0
+2026-02-16 16:29:08,753 | INFO | root | Sent → patient_id=11 heart_rate=98 status=normal partition=0
+2026-02-16 16:29:09,378 | INFO | root | Sent → patient_id=8 heart_rate=60 status=normal partition=0
+2026-02-16 16:29:10,377 | INFO | root | Sent → patient_id=9 heart_rate=60 status=normal partition=0
+2026-02-16 16:29:11,862 | INFO | root | Sent → patient_id=23 heart_rate=46 status=bradycardia partition=0
+2026-02-16 16:29:12,593 | INFO | root | Sent → patient_id=20 heart_rate=81 status=normal partition=0
+2026-02-16 16:29:13,352 | INFO | root | Sent → patient_id=6 heart_rate=83 status=normal partition=0
+2026-02-16 16:29:14,125 | INFO | root | Sent → patient_id=17 heart_rate=60 status=normal partition=0
+2026-02-16 16:29:15,274 | INFO | root | Sent → patient_id=16 heart_rate=75 status=normal partition=0
+2026-02-16 16:29:16,530 | INFO | root | Sent → patient_id=2 heart_rate=98 status=normal partition=0
+2026-02-16 16:29:17,693 | INFO | root | Sent → patient_id=20 heart_rate=90 status=normal partition=0
+2026-02-16 16:29:18,229 | INFO | root | Sent → patient_id=19 heart_rate=79 status=normal partition=0
+2026-02-16 16:29:19,204 | INFO | root | Sent → patient_id=3 heart_rate=72 status=normal partition=0
+2026-02-16 16:29:20,008 | INFO | root | Sent → patient_id=17 heart_rate=98 status=normal partition=0
+2026-02-16 16:29:20,976 | INFO | root | Sent → patient_id=7 heart_rate=100 status=normal partition=0
+2026-02-16 16:29:21,552 | INFO | root | Sent → patient_id=12 heart_rate=96 status=normal partition=0
+2026-02-16 16:29:22,628 | INFO | root | Sent → patient_id=20 heart_rate=61 status=normal partition=0
+2026-02-16 16:29:24,031 | INFO | root | Sent → patient_id=23 heart_rate=97 status=normal partition=0
+2026-02-16 16:29:25,074 | INFO | root | Sent → patient_id=24 heart_rate=72 status=normal partition=0
+2026-02-16 16:29:25,741 | INFO | root | Sent → patient_id=10 heart_rate=93 status=normal partition=0
+2026-02-16 16:29:27,139 | INFO | root | Sent → patient_id=11 heart_rate=81 status=normal partition=0
+2026-02-16 16:29:28,125 | INFO | root | Sent → patient_id=12 heart_rate=84 status=normal partition=0
+2026-02-16 16:29:29,178 | INFO | root | Sent → patient_id=2 heart_rate=87 status=normal partition=0
+2026-02-16 16:29:29,832 | INFO | root | Sent → patient_id=1 heart_rate=50 status=bradycardia partition=0
+2026-02-16 16:29:31,012 | INFO | root | Sent → patient_id=10 heart_rate=68 status=normal partition=0
+2026-02-16 16:29:32,134 | INFO | root | Sent → patient_id=1 heart_rate=65 status=normal partition=0
+2026-02-16 16:29:33,495 | INFO | root | Sent → patient_id=11 heart_rate=71 status=normal partition=0
+2026-02-16 16:29:34,199 | INFO | root | Sent → patient_id=12 heart_rate=93 status=normal partition=0
+2026-02-16 16:29:34,804 | INFO | root | Sent → patient_id=17 heart_rate=88 status=normal partition=0
+2026-02-16 16:29:35,839 | INFO | root | Sent → patient_id=8 heart_rate=62 status=normal partition=0
+2026-02-16 16:29:36,720 | INFO | root | Sent → patient_id=12 heart_rate=65 status=normal partition=0
+2026-02-16 16:29:37,667 | INFO | root | Sent → patient_id=16 heart_rate=83 status=normal partition=0
+2026-02-16 16:29:38,647 | INFO | root | Sent → patient_id=16 heart_rate=85 status=normal partition=0
+2026-02-16 16:29:40,066 | INFO | root | Sent → patient_id=21 heart_rate=86 status=normal partition=0
+2026-02-16 16:29:40,864 | INFO | root | Sent → patient_id=13 heart_rate=90 status=normal partition=0
+2026-02-16 16:29:41,567 | INFO | root | Sent → patient_id=16 heart_rate=68 status=normal partition=0
+2026-02-16 16:29:43,074 | INFO | root | Sent → patient_id=10 heart_rate=73 status=normal partition=0
+2026-02-16 16:29:44,095 | INFO | root | Sent → patient_id=7 heart_rate=85 status=normal partition=0
+2026-02-16 16:29:45,467 | INFO | root | Sent → patient_id=20 heart_rate=66 status=normal partition=0
+2026-02-16 16:29:46,853 | INFO | root | Sent → patient_id=14 heart_rate=61 status=normal partition=0
+2026-02-16 16:29:48,362 | INFO | root | Sent → patient_id=13 heart_rate=64 status=normal partition=0
+2026-02-16 16:31:23,583 | INFO | heartbeat_producer | Starting Heartbeat Data Producer...
+2026-02-16 16:31:23,585 | INFO | heartbeat_producer | Kafka Broker: kafka:9092
+2026-02-16 16:31:23,587 | INFO | heartbeat_producer | Topic: heartbeats
+2026-02-16 16:31:23,588 | INFO | heartbeat_producer | Simulating 25 patients
+2026-02-16 16:31:23,603 | INFO | heartbeat_producer | Connected to Kafka successfully.
+2026-02-16 16:31:23,722 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=84 status=normal partition=0
+2026-02-16 16:31:24,305 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=83 status=normal partition=0
+2026-02-16 16:31:25,729 | INFO | heartbeat_producer | Sent → patient_id=19 heart_rate=99 status=normal partition=0
+2026-02-16 16:31:26,381 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=69 status=normal partition=0
+2026-02-16 16:31:27,237 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=97 status=normal partition=0
+2026-02-16 16:31:27,758 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=78 status=normal partition=0
+2026-02-16 16:31:28,466 | INFO | heartbeat_producer | Sent → patient_id=7 heart_rate=138 status=tachycardia partition=0
+2026-02-16 16:31:29,829 | INFO | heartbeat_producer | Sent → patient_id=7 heart_rate=89 status=normal partition=0
+2026-02-16 16:31:31,065 | INFO | heartbeat_producer | Sent → patient_id=20 heart_rate=85 status=normal partition=0
+2026-02-16 16:31:31,588 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=77 status=normal partition=0
+2026-02-16 16:31:32,478 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=61 status=normal partition=0
+2026-02-16 16:31:33,794 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=94 status=normal partition=0
+2026-02-16 16:31:34,949 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=95 status=normal partition=0
+2026-02-16 16:31:36,242 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=97 status=normal partition=0
+2026-02-16 16:31:37,263 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=60 status=normal partition=0
+2026-02-16 16:31:38,048 | INFO | heartbeat_producer | Sent → patient_id=8 heart_rate=81 status=normal partition=0
+2026-02-16 16:31:38,745 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=140 status=tachycardia partition=0
+2026-02-16 16:31:39,467 | INFO | heartbeat_producer | Sent → patient_id=20 heart_rate=75 status=normal partition=0
+2026-02-16 16:31:40,527 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=87 status=normal partition=0
+2026-02-16 16:31:41,753 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=70 status=normal partition=0
+2026-02-16 16:31:42,615 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=77 status=normal partition=0
+2026-02-16 16:31:44,116 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=72 status=normal partition=0
+2026-02-16 16:31:45,569 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=84 status=normal partition=0
+2026-02-16 16:31:46,739 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=87 status=normal partition=0
+2026-02-16 16:31:48,185 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=62 status=normal partition=0
+2026-02-16 16:31:49,414 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=97 status=normal partition=0
+2026-02-16 16:31:50,743 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=84 status=normal partition=0
+2026-02-16 16:31:51,370 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=69 status=normal partition=0
+2026-02-16 16:31:52,561 | INFO | heartbeat_producer | Sent → patient_id=19 heart_rate=72 status=normal partition=0
+2026-02-16 16:31:53,828 | INFO | heartbeat_producer | Sent → patient_id=8 heart_rate=73 status=normal partition=0
+2026-02-16 16:31:54,956 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=93 status=normal partition=0
+2026-02-16 16:31:56,420 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=85 status=normal partition=0
+2026-02-16 16:31:57,406 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=65 status=normal partition=0
+2026-02-16 16:31:58,339 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=86 status=normal partition=0
+2026-02-16 16:31:59,765 | INFO | heartbeat_producer | Sent → patient_id=19 heart_rate=89 status=normal partition=0
+2026-02-16 16:32:00,577 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=89 status=normal partition=0
+2026-02-16 16:32:01,849 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=66 status=normal partition=0
+2026-02-16 16:32:02,947 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=97 status=normal partition=0
+2026-02-16 16:32:03,588 | INFO | heartbeat_producer | Sent → patient_id=13 heart_rate=99 status=normal partition=0
+2026-02-16 16:32:04,951 | INFO | heartbeat_producer | Sent → patient_id=8 heart_rate=85 status=normal partition=0
+2026-02-16 16:32:06,014 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=70 status=normal partition=0
+2026-02-16 16:32:07,008 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=77 status=normal partition=0
+2026-02-16 16:32:08,293 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=92 status=normal partition=0
+2026-02-16 16:32:09,475 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=92 status=normal partition=0
+2026-02-16 16:32:10,089 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=89 status=normal partition=0
+2026-02-16 16:32:10,644 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=70 status=normal partition=0
+2026-02-16 16:32:11,766 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=63 status=normal partition=0
+2026-02-16 16:32:12,456 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=89 status=normal partition=0
+2026-02-16 16:32:13,350 | INFO | heartbeat_producer | Sent → patient_id=19 heart_rate=60 status=normal partition=0
+2026-02-16 16:32:14,456 | INFO | heartbeat_producer | Sent → patient_id=8 heart_rate=97 status=normal partition=0
+2026-02-16 16:32:15,475 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=100 status=normal partition=0
+2026-02-16 16:32:16,399 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=61 status=normal partition=0
+2026-02-16 16:32:17,751 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=76 status=normal partition=0
+2026-02-16 16:32:18,631 | INFO | heartbeat_producer | Sent → patient_id=8 heart_rate=61 status=normal partition=0
+2026-02-16 16:32:19,292 | INFO | heartbeat_producer | Sent → patient_id=19 heart_rate=97 status=normal partition=0
+2026-02-16 16:32:20,743 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=85 status=normal partition=0
+2026-02-16 16:32:21,505 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=86 status=normal partition=0
+2026-02-16 16:32:22,336 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=66 status=normal partition=0
+2026-02-16 16:32:23,204 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=65 status=normal partition=0
+2026-02-16 16:32:23,835 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=73 status=normal partition=0
+2026-02-16 16:32:25,229 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=71 status=normal partition=0
+2026-02-16 16:32:26,102 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=77 status=normal partition=0
+2026-02-16 16:32:27,206 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=96 status=normal partition=0
+2026-02-16 16:32:28,303 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=43 status=bradycardia partition=0
+2026-02-16 16:32:29,492 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=100 status=normal partition=0
+2026-02-16 16:32:30,057 | INFO | heartbeat_producer | Sent → patient_id=19 heart_rate=80 status=normal partition=0
+2026-02-16 16:32:31,422 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=98 status=normal partition=0
+2026-02-16 16:32:32,791 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=71 status=normal partition=0
+2026-02-16 16:32:33,840 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=91 status=normal partition=0
+2026-02-16 16:32:34,714 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=70 status=normal partition=0
+2026-02-16 16:32:35,261 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=138 status=tachycardia partition=0
+2026-02-16 16:32:36,584 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=140 status=tachycardia partition=0
+2026-02-16 16:32:37,584 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=64 status=normal partition=0
+2026-02-16 16:32:38,625 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=77 status=normal partition=0
+2026-02-16 16:32:39,686 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=73 status=normal partition=0
+2026-02-16 16:32:40,635 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=80 status=normal partition=0
+2026-02-16 16:32:41,960 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=76 status=normal partition=0
+2026-02-16 16:32:43,409 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=62 status=normal partition=0
+2026-02-16 16:32:44,658 | INFO | heartbeat_producer | Sent → patient_id=7 heart_rate=78 status=normal partition=0
+2026-02-16 16:32:45,809 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=66 status=normal partition=0
+2026-02-16 16:32:46,338 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=89 status=normal partition=0
+2026-02-16 16:32:47,670 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=98 status=normal partition=0
+2026-02-16 16:32:48,384 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=95 status=normal partition=0
+2026-02-16 16:32:49,498 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=86 status=normal partition=0
+2026-02-16 16:32:50,550 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=66 status=normal partition=0
+2026-02-16 16:32:51,544 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=98 status=normal partition=0
