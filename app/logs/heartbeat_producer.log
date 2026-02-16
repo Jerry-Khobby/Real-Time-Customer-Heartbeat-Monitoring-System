@@ -1,0 +1,12 @@
+2026-02-16 10:00:36,674 | INFO | root | Starting Heartbeat Data Producer...
+2026-02-16 10:00:36,675 | INFO | root | Kafka Broker: kafka:9092
+2026-02-16 10:00:36,677 | INFO | root | Topic: heartbeats
+2026-02-16 10:00:36,680 | INFO | root | Simulating 25 patients
+2026-02-16 10:00:40,688 | WARNING | kafka.conn | DNS lookup failed for kafka:9092, exception was [Errno -5] No address associated with hostname. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-16 10:00:40,690 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-16 10:00:40,691 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-16 10:00:40,692 | WARNING | root | Kafka not available. Retry 1/5 in 2.0s...
+2026-02-16 10:00:46,640 | WARNING | kafka.conn | DNS lookup failed for kafka:9092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-16 10:00:46,642 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-16 10:00:46,644 | ERROR | kafka.conn | <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-16 10:00:46,646 | WARNING | root | Kafka not available. Retry 2/5 in 4.0s...

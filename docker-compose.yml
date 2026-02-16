@@ -22,7 +22,7 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
 
   postgres:
-    image: postgres:latest
+    image: postgres:14-alpine
     container_name: postgres
     environment:
       POSTGRES_DB: heartbeat_db
@@ -33,20 +33,44 @@ services:
     networks:
       - net-heatbeat
     volumes:
-      - ./db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      - ./app/db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
       - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d heartbeat_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
 
   producer:
-    build:
-      context: .
+    build: .
     depends_on:
       - kafka
+    networks:
+      - net-heatbeat
+    volumes:
+      - ./app/logs:/app/logs
+    env_file:
+      - .env
+    #entrypoint:
+    #[
+    # "/app/producer/wait-for-kafka.sh",
+    #"python",
+    #"app/producer/data_generator.py",
+    #]
+    command: python producer/data_generator.py
+
+  consumer:
+    build: .
+    depends_on:
+      - kafka
+      - postgres
     networks:
       - net-heatbeat
     command: python app/consumer/kafka_consumer.py
 
   spark:
-    image: bitnami/spark:latest
+    image: octoenergy/pyspark:4.0.0
     container_name: spark-streaming
     user: root
     depends_on:
@@ -57,8 +81,8 @@ services:
     networks:
       - net-heatbeat
     volumes:
-      - ./spark/spark_streaming.py:/opt/spark-apps/spark_streaming.py
-      - ./spark/jars/postgresql-42.7.5.jar:/opt/spark-apps/jars/postgresql-42.7.5.jar
+      - ./app/spark/spark_streaming.py:/opt/spark-apps/spark_streaming.py
+      - ./app/spark/jars/postgresql-42.7.6.jar:/opt/spark-apps/jars/postgresql-42.7.5.jar
 
   grafana:
     image: grafana/grafana-oss:latest
@@ -72,11 +96,12 @@ services:
     volumes:
       - grafana_data:/var/lib/grafana
     environment:
-      - GF_SECURITY_ADMIN_USER=admin
-      - GF_SECURITY_ADMIN_PASSWORD=admin
-      - GF_USERS_ALLOW_SIGN_UP=false
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_USERS_ALLOW_SIGN_UP: "false"
 
 volumes:
+  postgres_data:
   grafana_data:
 
 networks:
