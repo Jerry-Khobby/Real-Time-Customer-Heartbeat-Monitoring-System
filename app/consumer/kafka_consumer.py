@@ -6,7 +6,7 @@ from typing import Dict
 import psycopg2
 from kafka import KafkaConsumer
 from kafka.errors import KafkaError
-from consumer.config import KAFKA_BROKER, KAFKA_TOPIC, DB_CONN_STRING
+from producer.config import KAFKA_BROKER, KAFKA_TOPIC, DB_CONN_STRING
 from producer.logging_config import setup_logging
 
 
@@ -71,7 +71,6 @@ def run_consumer():
     except Exception as e:
         logger.error(f"Failed to connect to PostgreSQL: {e}")
         sys.exit(1)
-
     try:
         for message in consumer:
             if not running:

@@ -15,6 +15,8 @@ COPY app/ .
 
 RUN chmod +x /app/producer/wait-for-kafka.sh
 
+RUN chmod +x /app/consumer/wait-for-kafka.sh
+
 ENV PYTHONPATH=/app
 
 CMD ["python"]

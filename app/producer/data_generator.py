@@ -9,7 +9,7 @@ from typing import Dict
 
 from kafka import KafkaProducer
 from kafka.errors import KafkaError, NoBrokersAvailable
-from config import (
+from producer.config import (
     KAFKA_BROKER,
     KAFKA_TOPIC,
     NUM_PATIENTS,
@@ -21,7 +21,7 @@ from config import (
     RETRY_BACKOFF_SECONDS,
 )
 
-from logging_config import setup_logging
+from producer.logging_config import setup_logging
 
 
 # Logging Configuration

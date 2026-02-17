@@ -3,7 +3,7 @@ import os
 import sys
 from logging.handlers import RotatingFileHandler
 
-from config import LOG_DIR, LOG_LEVEL
+from producer.config import LOG_DIR, LOG_LEVEL
 
 
 def setup_logging(service_name: str):

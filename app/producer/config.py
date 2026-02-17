@@ -24,6 +24,7 @@ HEART_RATE_MAX: int = 100
 ANOMALY_PROBABILITY: float = 0.05
 
 
+DB_CONN_STRING = "postgresql://postgres:postgres@postgres:5432/heartbeat_db"
 
 
 MAX_RETRIES: int = int(os.getenv("MAX_RETRIES", 5))

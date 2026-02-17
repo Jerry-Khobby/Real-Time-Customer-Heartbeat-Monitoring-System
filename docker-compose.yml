@@ -66,17 +66,8 @@ services:
       - ./app/logs:/app/logs
     env_file:
       - .env
-    command: sh -c "python producer/data_generator.py"
+    command: python producer/data_generator.py
     restart: on-failure
-
-  consumer:
-    build: .
-    depends_on:
-      - kafka
-      - postgres
-    networks:
-      - net-heatbeat
-    command: python consumer/kafka_consumer.py
 
   spark:
     image: octoenergy/pyspark:4.0.0
@@ -86,12 +77,19 @@ services:
       - kafka
       - postgres
     environment:
-      - SPARK_MODE=master
+      - PYTHONPATH=/app
     networks:
       - net-heatbeat
     volumes:
-      - ./app/spark/spark_streaming.py:/opt/spark-apps/spark_streaming.py
-      - ./app/spark/jars/postgresql-42.7.6.jar:/opt/spark-apps/jars/postgresql-42.7.5.jar
+      - ./app:/app
+      - ./app/spark/jars/postgresql-42.7.6.jar:/opt/spark-apps/jars/postgresql-42.7.6.jar
+    command: >
+      spark-submit
+      --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0
+      --jars /app/spark/jars/postgresql-42.7.6.jar
+      /app/spark/spark_streaming.py
+
+    restart: on-failure
 
   grafana:
     image: grafana/grafana-oss:latest
