@@ -5,7 +5,7 @@ import os
 
 #setup log file
 
-LOG_DIR = os.getenv("LOG_DIR", "/app/logs")
+LOG_DIR = os.getenv("LOG_DIR", "/Script/logs")
 LOG_FILE = os.getenv("LOG_FILE", "heartbeat_producer.log")
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 

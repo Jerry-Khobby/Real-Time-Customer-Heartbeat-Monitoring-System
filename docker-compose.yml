@@ -47,7 +47,7 @@ services:
     networks:
       - net-heatbeat
     volumes:
-      - ./app/db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      - ./Script/db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres -d heartbeat_db"]
@@ -59,36 +59,37 @@ services:
   producer:
     build: .
     depends_on:
-      - kafka
+      kafka:
+        condition: service_healthy
     networks:
       - net-heatbeat
     volumes:
-      - ./app/logs:/app/logs
+      - ./Script/logs:/Script/logs
     env_file:
       - .env
     command: python producer/data_generator.py
     restart: on-failure
 
   spark:
-    image: octoenergy/pyspark:4.0.0
+    image: apache/spark:3.5.0-python3
     container_name: spark-streaming
     user: root
     depends_on:
-      - kafka
-      - postgres
+      kafka:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
     environment:
-      - PYTHONPATH=/app
+      - PYTHONPATH=/Script
     networks:
       - net-heatbeat
     volumes:
-      - ./app:/app
-      - ./app/spark/jars/postgresql-42.7.6.jar:/opt/spark-apps/jars/postgresql-42.7.6.jar
+      - ./Script:/Script
     command: >
-      spark-submit
+      /opt/spark/bin/spark-submit
       --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0
-      --jars /app/spark/jars/postgresql-42.7.6.jar
-      /app/spark/spark_streaming.py
-
+      --jars /Script/spark/jars/postgresql-42.7.6.jar
+      /Script/spark/spark_streaming.py
     restart: on-failure
 
   grafana:
@@ -97,7 +98,8 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - postgres
+      postgres:
+        condition: service_healthy
     networks:
       - net-heatbeat
     volumes:

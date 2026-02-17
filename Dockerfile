@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 
-WORKDIR /app
+WORKDIR /Script
 
 # Install netcat for wait-for-kafka.sh
 RUN apt-get update && \
@@ -11,12 +11,12 @@ RUN apt-get update && \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY app/ .
+COPY Script/ .
 
-RUN chmod +x /app/producer/wait-for-kafka.sh
+RUN chmod +x /Script/producer/wait-for-kafka.sh
 
-RUN chmod +x /app/consumer/wait-for-kafka.sh
+RUN chmod +x /Script/consumer/wait-for-kafka.sh
 
-ENV PYTHONPATH=/app
+ENV PYTHONPATH=/Script
 
 CMD ["python"]

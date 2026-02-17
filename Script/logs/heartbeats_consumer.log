@@ -1,0 +1,553 @@
+2026-02-17 14:18:48,405 | INFO | heartbeats_consumer | Starting Spark Streaming application...
+2026-02-17 14:18:51,245 | INFO | heartbeats_consumer | Spark session created successfully
+2026-02-17 14:18:51,246 | INFO | heartbeats_consumer | Reading from Kafka topic: heartbeats
+2026-02-17 14:18:54,556 | INFO | heartbeats_consumer | Starting stream processing...
+2026-02-17 14:19:04,640 | INFO | heartbeats_consumer | [Batch 0] Successfully wrote 53 rows to PostgreSQL
+2026-02-17 14:19:07,583 | INFO | heartbeats_consumer | [Batch 1] Successfully wrote 7 rows to PostgreSQL
+2026-02-17 14:19:10,110 | INFO | heartbeats_consumer | [Batch 2] Successfully wrote 4 rows to PostgreSQL
+2026-02-17 14:19:11,508 | INFO | heartbeats_consumer | [Batch 3] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:13,354 | INFO | heartbeats_consumer | [Batch 4] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:14,882 | INFO | heartbeats_consumer | [Batch 5] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:16,026 | INFO | heartbeats_consumer | [Batch 6] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:17,453 | INFO | heartbeats_consumer | [Batch 7] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:19,664 | INFO | heartbeats_consumer | [Batch 8] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:22,040 | INFO | heartbeats_consumer | [Batch 9] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:23,385 | INFO | heartbeats_consumer | [Batch 10] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:25,062 | INFO | heartbeats_consumer | [Batch 11] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:26,568 | INFO | heartbeats_consumer | [Batch 12] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:27,934 | INFO | heartbeats_consumer | [Batch 13] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:29,237 | INFO | heartbeats_consumer | [Batch 14] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:30,973 | INFO | heartbeats_consumer | [Batch 15] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:32,867 | INFO | heartbeats_consumer | [Batch 16] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:34,024 | INFO | heartbeats_consumer | [Batch 17] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:35,663 | INFO | heartbeats_consumer | [Batch 18] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:37,037 | INFO | heartbeats_consumer | [Batch 19] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:38,144 | INFO | heartbeats_consumer | [Batch 20] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:39,547 | INFO | heartbeats_consumer | [Batch 21] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:40,800 | INFO | heartbeats_consumer | [Batch 22] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:42,220 | INFO | heartbeats_consumer | [Batch 23] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:43,653 | INFO | heartbeats_consumer | [Batch 24] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:45,025 | INFO | heartbeats_consumer | [Batch 25] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:46,969 | INFO | heartbeats_consumer | [Batch 26] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:48,249 | INFO | heartbeats_consumer | [Batch 27] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:50,203 | INFO | heartbeats_consumer | [Batch 28] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:51,346 | INFO | heartbeats_consumer | [Batch 29] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:52,723 | INFO | heartbeats_consumer | [Batch 30] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:53,602 | INFO | heartbeats_consumer | [Batch 31] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:55,467 | INFO | heartbeats_consumer | [Batch 32] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:56,867 | INFO | heartbeats_consumer | [Batch 33] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:19:58,680 | INFO | heartbeats_consumer | [Batch 34] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:19:59,919 | INFO | heartbeats_consumer | [Batch 35] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:01,223 | INFO | heartbeats_consumer | [Batch 36] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:03,106 | INFO | heartbeats_consumer | [Batch 37] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:04,329 | INFO | heartbeats_consumer | [Batch 38] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:05,184 | INFO | heartbeats_consumer | [Batch 39] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:06,792 | INFO | heartbeats_consumer | [Batch 40] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:07,795 | INFO | heartbeats_consumer | [Batch 41] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:09,459 | INFO | heartbeats_consumer | [Batch 42] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:10,455 | INFO | heartbeats_consumer | [Batch 43] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:11,972 | INFO | heartbeats_consumer | [Batch 44] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:13,326 | INFO | heartbeats_consumer | [Batch 45] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:14,107 | INFO | heartbeats_consumer | [Batch 46] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:15,732 | INFO | heartbeats_consumer | [Batch 47] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:17,136 | INFO | heartbeats_consumer | [Batch 48] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:17,896 | INFO | heartbeats_consumer | [Batch 49] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:19,437 | INFO | heartbeats_consumer | [Batch 50] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:20,939 | INFO | heartbeats_consumer | [Batch 51] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:22,262 | INFO | heartbeats_consumer | [Batch 52] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:24,195 | INFO | heartbeats_consumer | [Batch 53] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:26,549 | INFO | heartbeats_consumer | [Batch 54] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:28,403 | INFO | heartbeats_consumer | [Batch 55] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:29,585 | INFO | heartbeats_consumer | [Batch 56] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:31,294 | INFO | heartbeats_consumer | [Batch 57] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:32,410 | INFO | heartbeats_consumer | [Batch 58] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:33,999 | INFO | heartbeats_consumer | [Batch 59] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:35,783 | INFO | heartbeats_consumer | [Batch 60] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:36,586 | INFO | heartbeats_consumer | [Batch 61] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:38,399 | INFO | heartbeats_consumer | [Batch 62] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:39,265 | INFO | heartbeats_consumer | [Batch 63] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:40,270 | INFO | heartbeats_consumer | [Batch 64] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:41,157 | INFO | heartbeats_consumer | [Batch 65] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:42,452 | INFO | heartbeats_consumer | [Batch 66] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:43,468 | INFO | heartbeats_consumer | [Batch 67] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:44,943 | INFO | heartbeats_consumer | [Batch 68] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:45,862 | INFO | heartbeats_consumer | [Batch 69] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:47,633 | INFO | heartbeats_consumer | [Batch 70] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:49,428 | INFO | heartbeats_consumer | [Batch 71] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:20:49,708 | INFO | heartbeats_consumer | [Batch 72] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:51,281 | INFO | heartbeats_consumer | [Batch 73] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:52,297 | INFO | heartbeats_consumer | [Batch 74] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:53,815 | INFO | heartbeats_consumer | [Batch 75] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:54,905 | INFO | heartbeats_consumer | [Batch 76] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:56,225 | INFO | heartbeats_consumer | [Batch 77] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:57,395 | INFO | heartbeats_consumer | [Batch 78] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:20:59,213 | INFO | heartbeats_consumer | [Batch 79] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:00,170 | INFO | heartbeats_consumer | [Batch 80] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:01,130 | INFO | heartbeats_consumer | [Batch 81] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:01,895 | INFO | heartbeats_consumer | [Batch 82] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:03,251 | INFO | heartbeats_consumer | [Batch 83] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:04,952 | INFO | heartbeats_consumer | [Batch 84] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:06,023 | INFO | heartbeats_consumer | [Batch 85] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:07,823 | INFO | heartbeats_consumer | [Batch 86] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:09,042 | INFO | heartbeats_consumer | [Batch 87] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:10,323 | INFO | heartbeats_consumer | [Batch 88] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:11,742 | INFO | heartbeats_consumer | [Batch 89] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:13,253 | INFO | heartbeats_consumer | [Batch 90] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:14,752 | INFO | heartbeats_consumer | [Batch 91] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:16,127 | INFO | heartbeats_consumer | [Batch 92] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:17,430 | INFO | heartbeats_consumer | [Batch 93] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:18,244 | INFO | heartbeats_consumer | [Batch 94] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:19,681 | INFO | heartbeats_consumer | [Batch 95] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:21,402 | INFO | heartbeats_consumer | [Batch 96] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:23,113 | INFO | heartbeats_consumer | [Batch 97] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:26,138 | INFO | heartbeats_consumer | [Batch 98] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:27,128 | INFO | heartbeats_consumer | [Batch 99] Successfully wrote 3 rows to PostgreSQL
+2026-02-17 14:21:29,062 | INFO | heartbeats_consumer | [Batch 100] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:30,115 | INFO | heartbeats_consumer | [Batch 101] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:31,718 | INFO | heartbeats_consumer | [Batch 102] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:33,242 | INFO | heartbeats_consumer | [Batch 103] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:34,211 | INFO | heartbeats_consumer | [Batch 104] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:35,353 | INFO | heartbeats_consumer | [Batch 105] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:36,632 | INFO | heartbeats_consumer | [Batch 106] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:38,440 | INFO | heartbeats_consumer | [Batch 107] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:39,527 | INFO | heartbeats_consumer | [Batch 108] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:40,469 | INFO | heartbeats_consumer | [Batch 109] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:41,770 | INFO | heartbeats_consumer | [Batch 110] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:43,604 | INFO | heartbeats_consumer | [Batch 111] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:45,062 | INFO | heartbeats_consumer | [Batch 112] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:46,183 | INFO | heartbeats_consumer | [Batch 113] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:47,541 | INFO | heartbeats_consumer | [Batch 114] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:49,803 | INFO | heartbeats_consumer | [Batch 115] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:50,726 | INFO | heartbeats_consumer | [Batch 116] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:52,394 | INFO | heartbeats_consumer | [Batch 117] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:53,638 | INFO | heartbeats_consumer | [Batch 118] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:21:54,897 | INFO | heartbeats_consumer | [Batch 119] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:56,173 | INFO | heartbeats_consumer | [Batch 120] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:57,365 | INFO | heartbeats_consumer | [Batch 121] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:58,248 | INFO | heartbeats_consumer | [Batch 122] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:21:59,562 | INFO | heartbeats_consumer | [Batch 123] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:01,023 | INFO | heartbeats_consumer | [Batch 124] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:02,678 | INFO | heartbeats_consumer | [Batch 125] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:03,643 | INFO | heartbeats_consumer | [Batch 126] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:04,917 | INFO | heartbeats_consumer | [Batch 127] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:05,771 | INFO | heartbeats_consumer | [Batch 128] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:06,880 | INFO | heartbeats_consumer | [Batch 129] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:07,780 | INFO | heartbeats_consumer | [Batch 130] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:08,656 | INFO | heartbeats_consumer | [Batch 131] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:09,792 | INFO | heartbeats_consumer | [Batch 132] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:11,310 | INFO | heartbeats_consumer | [Batch 133] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:22:12,688 | INFO | heartbeats_consumer | [Batch 134] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:14,382 | INFO | heartbeats_consumer | [Batch 135] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:22:15,240 | INFO | heartbeats_consumer | [Batch 136] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:16,230 | INFO | heartbeats_consumer | [Batch 137] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:17,602 | INFO | heartbeats_consumer | [Batch 138] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:22:19,263 | INFO | heartbeats_consumer | [Batch 139] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:22:20,050 | INFO | heartbeats_consumer | [Batch 140] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:20,991 | INFO | heartbeats_consumer | [Batch 141] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:22,082 | INFO | heartbeats_consumer | [Batch 142] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:23,382 | INFO | heartbeats_consumer | [Batch 143] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:24,411 | INFO | heartbeats_consumer | [Batch 144] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:26,339 | INFO | heartbeats_consumer | [Batch 145] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:27,264 | INFO | heartbeats_consumer | [Batch 146] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:22:28,794 | INFO | heartbeats_consumer | [Batch 147] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:30,074 | INFO | heartbeats_consumer | [Batch 148] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:22:31,379 | INFO | heartbeats_consumer | [Batch 149] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:32,468 | INFO | heartbeats_consumer | [Batch 150] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:34,224 | INFO | heartbeats_consumer | [Batch 151] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:22:35,493 | INFO | heartbeats_consumer | [Batch 152] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:36,364 | INFO | heartbeats_consumer | [Batch 153] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:37,836 | INFO | heartbeats_consumer | [Batch 154] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:39,361 | INFO | heartbeats_consumer | [Batch 155] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:40,474 | INFO | heartbeats_consumer | [Batch 156] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:41,668 | INFO | heartbeats_consumer | [Batch 157] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:43,108 | INFO | heartbeats_consumer | [Batch 158] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:22:44,643 | INFO | heartbeats_consumer | [Batch 159] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:45,724 | INFO | heartbeats_consumer | [Batch 160] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:46,616 | INFO | heartbeats_consumer | [Batch 161] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:47,924 | INFO | heartbeats_consumer | [Batch 162] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:49,245 | INFO | heartbeats_consumer | [Batch 163] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:22:51,092 | INFO | heartbeats_consumer | [Batch 164] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:51,969 | INFO | heartbeats_consumer | [Batch 165] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:53,669 | INFO | heartbeats_consumer | [Batch 166] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:22:54,546 | INFO | heartbeats_consumer | [Batch 167] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:55,636 | INFO | heartbeats_consumer | [Batch 168] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:56,832 | INFO | heartbeats_consumer | [Batch 169] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:57,769 | INFO | heartbeats_consumer | [Batch 170] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:22:59,159 | INFO | heartbeats_consumer | [Batch 171] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:00,508 | INFO | heartbeats_consumer | [Batch 172] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:02,352 | INFO | heartbeats_consumer | [Batch 173] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:03,212 | INFO | heartbeats_consumer | [Batch 174] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:04,507 | INFO | heartbeats_consumer | [Batch 175] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:05,842 | INFO | heartbeats_consumer | [Batch 176] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:07,351 | INFO | heartbeats_consumer | [Batch 177] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:09,132 | INFO | heartbeats_consumer | [Batch 178] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:10,359 | INFO | heartbeats_consumer | [Batch 179] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:11,615 | INFO | heartbeats_consumer | [Batch 180] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:12,376 | INFO | heartbeats_consumer | [Batch 181] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:13,227 | INFO | heartbeats_consumer | [Batch 182] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:14,569 | INFO | heartbeats_consumer | [Batch 183] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:15,888 | INFO | heartbeats_consumer | [Batch 184] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:17,568 | INFO | heartbeats_consumer | [Batch 185] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:17,926 | INFO | heartbeats_consumer | [Batch 186] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:19,275 | INFO | heartbeats_consumer | [Batch 187] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:20,049 | INFO | heartbeats_consumer | [Batch 188] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:20,795 | INFO | heartbeats_consumer | [Batch 189] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:21,982 | INFO | heartbeats_consumer | [Batch 190] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:23,260 | INFO | heartbeats_consumer | [Batch 191] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:24,557 | INFO | heartbeats_consumer | [Batch 192] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:25,644 | INFO | heartbeats_consumer | [Batch 193] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:27,474 | INFO | heartbeats_consumer | [Batch 194] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:28,318 | INFO | heartbeats_consumer | [Batch 195] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:29,114 | INFO | heartbeats_consumer | [Batch 196] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:30,804 | INFO | heartbeats_consumer | [Batch 197] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:31,656 | INFO | heartbeats_consumer | [Batch 198] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:33,259 | INFO | heartbeats_consumer | [Batch 199] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:34,738 | INFO | heartbeats_consumer | [Batch 200] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:35,632 | INFO | heartbeats_consumer | [Batch 201] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:37,422 | INFO | heartbeats_consumer | [Batch 202] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:38,666 | INFO | heartbeats_consumer | [Batch 203] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:39,519 | INFO | heartbeats_consumer | [Batch 204] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:40,941 | INFO | heartbeats_consumer | [Batch 205] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:42,716 | INFO | heartbeats_consumer | [Batch 206] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:44,246 | INFO | heartbeats_consumer | [Batch 207] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:45,649 | INFO | heartbeats_consumer | [Batch 208] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:46,835 | INFO | heartbeats_consumer | [Batch 209] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:48,258 | INFO | heartbeats_consumer | [Batch 210] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:50,114 | INFO | heartbeats_consumer | [Batch 211] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:51,421 | INFO | heartbeats_consumer | [Batch 212] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:52,596 | INFO | heartbeats_consumer | [Batch 213] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:53,563 | INFO | heartbeats_consumer | [Batch 214] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:55,378 | INFO | heartbeats_consumer | [Batch 215] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:56,264 | INFO | heartbeats_consumer | [Batch 216] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:23:57,931 | INFO | heartbeats_consumer | [Batch 217] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:23:58,264 | INFO | heartbeats_consumer | [Batch 218] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:00,057 | INFO | heartbeats_consumer | [Batch 219] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:01,391 | INFO | heartbeats_consumer | [Batch 220] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:02,240 | INFO | heartbeats_consumer | [Batch 221] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:03,520 | INFO | heartbeats_consumer | [Batch 222] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:24:04,763 | INFO | heartbeats_consumer | [Batch 223] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:05,954 | INFO | heartbeats_consumer | [Batch 224] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:07,077 | INFO | heartbeats_consumer | [Batch 225] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:07,975 | INFO | heartbeats_consumer | [Batch 226] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:09,507 | INFO | heartbeats_consumer | [Batch 227] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:24:10,861 | INFO | heartbeats_consumer | [Batch 228] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:24:11,677 | INFO | heartbeats_consumer | [Batch 229] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:12,548 | INFO | heartbeats_consumer | [Batch 230] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:13,598 | INFO | heartbeats_consumer | [Batch 231] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:15,242 | INFO | heartbeats_consumer | [Batch 232] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:24:16,035 | INFO | heartbeats_consumer | [Batch 233] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:17,416 | INFO | heartbeats_consumer | [Batch 234] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:18,920 | INFO | heartbeats_consumer | [Batch 235] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:20,632 | INFO | heartbeats_consumer | [Batch 236] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:24:21,724 | INFO | heartbeats_consumer | [Batch 237] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:22,793 | INFO | heartbeats_consumer | [Batch 238] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:23,627 | INFO | heartbeats_consumer | [Batch 239] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:25,342 | INFO | heartbeats_consumer | [Batch 240] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:26,573 | INFO | heartbeats_consumer | [Batch 241] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:27,305 | INFO | heartbeats_consumer | [Batch 242] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:28,487 | INFO | heartbeats_consumer | [Batch 243] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:29,712 | INFO | heartbeats_consumer | [Batch 244] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:30,517 | INFO | heartbeats_consumer | [Batch 245] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:32,001 | INFO | heartbeats_consumer | [Batch 246] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:32,976 | INFO | heartbeats_consumer | [Batch 247] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:34,338 | INFO | heartbeats_consumer | [Batch 248] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:35,593 | INFO | heartbeats_consumer | [Batch 249] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:37,138 | INFO | heartbeats_consumer | [Batch 250] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:24:38,417 | INFO | heartbeats_consumer | [Batch 251] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:39,698 | INFO | heartbeats_consumer | [Batch 252] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:24:41,204 | INFO | heartbeats_consumer | [Batch 253] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:24:42,193 | INFO | heartbeats_consumer | [Batch 254] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:43,053 | INFO | heartbeats_consumer | [Batch 255] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:44,554 | INFO | heartbeats_consumer | [Batch 256] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:24:45,540 | INFO | heartbeats_consumer | [Batch 257] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:46,307 | INFO | heartbeats_consumer | [Batch 258] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:47,778 | INFO | heartbeats_consumer | [Batch 259] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:49,197 | INFO | heartbeats_consumer | [Batch 260] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:50,984 | INFO | heartbeats_consumer | [Batch 261] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:52,388 | INFO | heartbeats_consumer | [Batch 262] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:24:54,130 | INFO | heartbeats_consumer | [Batch 263] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:54,999 | INFO | heartbeats_consumer | [Batch 264] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:56,285 | INFO | heartbeats_consumer | [Batch 265] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:57,528 | INFO | heartbeats_consumer | [Batch 266] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:58,390 | INFO | heartbeats_consumer | [Batch 267] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:24:59,210 | INFO | heartbeats_consumer | [Batch 268] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:00,730 | INFO | heartbeats_consumer | [Batch 269] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:01,504 | INFO | heartbeats_consumer | [Batch 270] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:02,898 | INFO | heartbeats_consumer | [Batch 271] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:03,817 | INFO | heartbeats_consumer | [Batch 272] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:05,058 | INFO | heartbeats_consumer | [Batch 273] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:05,771 | INFO | heartbeats_consumer | [Batch 274] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:06,780 | INFO | heartbeats_consumer | [Batch 275] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:07,761 | INFO | heartbeats_consumer | [Batch 276] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:08,649 | INFO | heartbeats_consumer | [Batch 277] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:09,719 | INFO | heartbeats_consumer | [Batch 278] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:10,530 | INFO | heartbeats_consumer | [Batch 279] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:12,122 | INFO | heartbeats_consumer | [Batch 280] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:25:13,234 | INFO | heartbeats_consumer | [Batch 281] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:14,569 | INFO | heartbeats_consumer | [Batch 282] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:25:16,304 | INFO | heartbeats_consumer | [Batch 283] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:25:17,108 | INFO | heartbeats_consumer | [Batch 284] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:18,291 | INFO | heartbeats_consumer | [Batch 285] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:19,444 | INFO | heartbeats_consumer | [Batch 286] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:20,578 | INFO | heartbeats_consumer | [Batch 287] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:21,333 | INFO | heartbeats_consumer | [Batch 288] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:22,568 | INFO | heartbeats_consumer | [Batch 289] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:23,614 | INFO | heartbeats_consumer | [Batch 290] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:24,627 | INFO | heartbeats_consumer | [Batch 291] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:25,813 | INFO | heartbeats_consumer | [Batch 292] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:27,280 | INFO | heartbeats_consumer | [Batch 293] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:25:28,548 | INFO | heartbeats_consumer | [Batch 294] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:29,390 | INFO | heartbeats_consumer | [Batch 295] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:30,174 | INFO | heartbeats_consumer | [Batch 296] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:31,936 | INFO | heartbeats_consumer | [Batch 297] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:32,728 | INFO | heartbeats_consumer | [Batch 298] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:33,963 | INFO | heartbeats_consumer | [Batch 299] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:34,983 | INFO | heartbeats_consumer | [Batch 300] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:36,810 | INFO | heartbeats_consumer | [Batch 301] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:38,412 | INFO | heartbeats_consumer | [Batch 302] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:25:39,250 | INFO | heartbeats_consumer | [Batch 303] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:40,072 | INFO | heartbeats_consumer | [Batch 304] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:41,857 | INFO | heartbeats_consumer | [Batch 305] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:25:43,032 | INFO | heartbeats_consumer | [Batch 306] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:25:44,514 | INFO | heartbeats_consumer | [Batch 307] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:25:45,429 | INFO | heartbeats_consumer | [Batch 308] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:46,754 | INFO | heartbeats_consumer | [Batch 309] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:48,398 | INFO | heartbeats_consumer | [Batch 310] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:49,878 | INFO | heartbeats_consumer | [Batch 311] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:25:51,623 | INFO | heartbeats_consumer | [Batch 312] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:52,537 | INFO | heartbeats_consumer | [Batch 313] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:54,272 | INFO | heartbeats_consumer | [Batch 314] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:55,025 | INFO | heartbeats_consumer | [Batch 315] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:55,905 | INFO | heartbeats_consumer | [Batch 316] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:57,080 | INFO | heartbeats_consumer | [Batch 317] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:25:58,559 | INFO | heartbeats_consumer | [Batch 318] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:25:59,780 | INFO | heartbeats_consumer | [Batch 319] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:00,821 | INFO | heartbeats_consumer | [Batch 320] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:02,356 | INFO | heartbeats_consumer | [Batch 321] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:03,849 | INFO | heartbeats_consumer | [Batch 322] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:04,695 | INFO | heartbeats_consumer | [Batch 323] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:06,260 | INFO | heartbeats_consumer | [Batch 324] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:07,643 | INFO | heartbeats_consumer | [Batch 325] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:08,499 | INFO | heartbeats_consumer | [Batch 326] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:09,612 | INFO | heartbeats_consumer | [Batch 327] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:10,426 | INFO | heartbeats_consumer | [Batch 328] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:11,815 | INFO | heartbeats_consumer | [Batch 329] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:13,492 | INFO | heartbeats_consumer | [Batch 330] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:14,960 | INFO | heartbeats_consumer | [Batch 331] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:16,121 | INFO | heartbeats_consumer | [Batch 332] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:17,427 | INFO | heartbeats_consumer | [Batch 333] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:18,389 | INFO | heartbeats_consumer | [Batch 334] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:19,363 | INFO | heartbeats_consumer | [Batch 335] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:21,018 | INFO | heartbeats_consumer | [Batch 336] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:22,984 | INFO | heartbeats_consumer | [Batch 337] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:24,868 | INFO | heartbeats_consumer | [Batch 338] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:26,203 | INFO | heartbeats_consumer | [Batch 339] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:27,510 | INFO | heartbeats_consumer | [Batch 340] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:28,509 | INFO | heartbeats_consumer | [Batch 341] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:29,839 | INFO | heartbeats_consumer | [Batch 342] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:30,239 | INFO | heartbeats_consumer | [Batch 343] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:32,018 | INFO | heartbeats_consumer | [Batch 344] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:33,114 | INFO | heartbeats_consumer | [Batch 345] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:34,228 | INFO | heartbeats_consumer | [Batch 346] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:36,140 | INFO | heartbeats_consumer | [Batch 347] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:37,012 | INFO | heartbeats_consumer | [Batch 348] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:38,352 | INFO | heartbeats_consumer | [Batch 349] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:39,920 | INFO | heartbeats_consumer | [Batch 350] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:41,841 | INFO | heartbeats_consumer | [Batch 351] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:43,975 | INFO | heartbeats_consumer | [Batch 352] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:45,264 | INFO | heartbeats_consumer | [Batch 353] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:26:46,403 | INFO | heartbeats_consumer | [Batch 354] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:47,632 | INFO | heartbeats_consumer | [Batch 355] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:49,089 | INFO | heartbeats_consumer | [Batch 356] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:50,349 | INFO | heartbeats_consumer | [Batch 357] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:51,386 | INFO | heartbeats_consumer | [Batch 358] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:52,471 | INFO | heartbeats_consumer | [Batch 359] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:53,568 | INFO | heartbeats_consumer | [Batch 360] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:54,930 | INFO | heartbeats_consumer | [Batch 361] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:56,220 | INFO | heartbeats_consumer | [Batch 362] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:57,224 | INFO | heartbeats_consumer | [Batch 363] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:58,146 | INFO | heartbeats_consumer | [Batch 364] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:26:59,477 | INFO | heartbeats_consumer | [Batch 365] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:00,509 | INFO | heartbeats_consumer | [Batch 366] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:02,073 | INFO | heartbeats_consumer | [Batch 367] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:03,465 | INFO | heartbeats_consumer | [Batch 368] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:04,400 | INFO | heartbeats_consumer | [Batch 369] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:05,870 | INFO | heartbeats_consumer | [Batch 370] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:07,217 | INFO | heartbeats_consumer | [Batch 371] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:08,286 | INFO | heartbeats_consumer | [Batch 372] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:09,404 | INFO | heartbeats_consumer | [Batch 373] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:11,249 | INFO | heartbeats_consumer | [Batch 374] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:12,675 | INFO | heartbeats_consumer | [Batch 375] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:14,413 | INFO | heartbeats_consumer | [Batch 376] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:15,539 | INFO | heartbeats_consumer | [Batch 377] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:16,903 | INFO | heartbeats_consumer | [Batch 378] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:18,355 | INFO | heartbeats_consumer | [Batch 379] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:19,581 | INFO | heartbeats_consumer | [Batch 380] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:21,431 | INFO | heartbeats_consumer | [Batch 381] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:21,916 | INFO | heartbeats_consumer | [Batch 382] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:23,339 | INFO | heartbeats_consumer | [Batch 383] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:24,682 | INFO | heartbeats_consumer | [Batch 384] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:25,998 | INFO | heartbeats_consumer | [Batch 385] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:27,325 | INFO | heartbeats_consumer | [Batch 386] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:28,354 | INFO | heartbeats_consumer | [Batch 387] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:30,039 | INFO | heartbeats_consumer | [Batch 388] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:31,406 | INFO | heartbeats_consumer | [Batch 389] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:33,205 | INFO | heartbeats_consumer | [Batch 390] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:34,960 | INFO | heartbeats_consumer | [Batch 391] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:36,039 | INFO | heartbeats_consumer | [Batch 392] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:37,870 | INFO | heartbeats_consumer | [Batch 393] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:39,702 | INFO | heartbeats_consumer | [Batch 394] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:40,970 | INFO | heartbeats_consumer | [Batch 395] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:42,647 | INFO | heartbeats_consumer | [Batch 396] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:44,616 | INFO | heartbeats_consumer | [Batch 397] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:46,047 | INFO | heartbeats_consumer | [Batch 398] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:46,907 | INFO | heartbeats_consumer | [Batch 399] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:47,880 | INFO | heartbeats_consumer | [Batch 400] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:48,858 | INFO | heartbeats_consumer | [Batch 401] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:50,010 | INFO | heartbeats_consumer | [Batch 402] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:51,741 | INFO | heartbeats_consumer | [Batch 403] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:53,707 | INFO | heartbeats_consumer | [Batch 404] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:55,114 | INFO | heartbeats_consumer | [Batch 405] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:27:56,507 | INFO | heartbeats_consumer | [Batch 406] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:57,697 | INFO | heartbeats_consumer | [Batch 407] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:27:58,899 | INFO | heartbeats_consumer | [Batch 408] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:00,175 | INFO | heartbeats_consumer | [Batch 409] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:01,573 | INFO | heartbeats_consumer | [Batch 410] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:02,911 | INFO | heartbeats_consumer | [Batch 411] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:03,954 | INFO | heartbeats_consumer | [Batch 412] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:28:05,322 | INFO | heartbeats_consumer | [Batch 413] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:07,290 | INFO | heartbeats_consumer | [Batch 414] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:28:08,687 | INFO | heartbeats_consumer | [Batch 415] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:09,999 | INFO | heartbeats_consumer | [Batch 416] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:11,432 | INFO | heartbeats_consumer | [Batch 417] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:28:12,781 | INFO | heartbeats_consumer | [Batch 418] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:14,105 | INFO | heartbeats_consumer | [Batch 419] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:16,004 | INFO | heartbeats_consumer | [Batch 420] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:28:17,045 | INFO | heartbeats_consumer | [Batch 421] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:18,784 | INFO | heartbeats_consumer | [Batch 422] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:20,431 | INFO | heartbeats_consumer | [Batch 423] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:22,114 | INFO | heartbeats_consumer | [Batch 424] Successfully wrote 2 rows to PostgreSQL
+2026-02-17 14:28:22,988 | INFO | heartbeats_consumer | [Batch 425] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:24,383 | INFO | heartbeats_consumer | [Batch 426] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:25,813 | INFO | heartbeats_consumer | [Batch 427] Successfully wrote 1 rows to PostgreSQL
+2026-02-17 14:28:26,988 | ERROR | heartbeats_consumer | [Batch 428] Failed to write to PostgreSQL: An error occurred while calling o5217.count.
+: java.lang.IllegalStateException: Cannot call methods on a stopped SparkContext.
+This stopped SparkContext was created at:
+
+org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+py4j.Gateway.invoke(Gateway.java:238)
+py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+java.base/java.lang.Thread.run(Unknown Source)
+
+The currently active SparkContext was created at:
+
+org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+py4j.Gateway.invoke(Gateway.java:238)
+py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+java.base/java.lang.Thread.run(Unknown Source)
+         
+	at org.apache.spark.SparkContext.assertNotStopped(SparkContext.scala:122)
+	at org.apache.spark.SparkContext.defaultParallelism(SparkContext.scala:2707)
+	at org.apache.spark.sql.execution.adaptive.CoalesceShufflePartitions.$anonfun$apply$1(CoalesceShufflePartitions.scala:60)
+	at scala.runtime.java8.JFunction0$mcI$sp.apply(JFunction0$mcI$sp.java:23)
+	at scala.Option.getOrElse(Option.scala:189)
+	at org.apache.spark.sql.execution.adaptive.CoalesceShufflePartitions.apply(CoalesceShufflePartitions.scala:57)
+	at org.apache.spark.sql.execution.adaptive.CoalesceShufflePartitions.apply(CoalesceShufflePartitions.scala:33)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$optimizeQueryStage$1(AdaptiveSparkPlanExec.scala:163)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.optimizeQueryStage(AdaptiveSparkPlanExec.scala:162)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.newQueryStage(AdaptiveSparkPlanExec.scala:572)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.createQueryStages(AdaptiveSparkPlanExec.scala:522)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$createQueryStages$2(AdaptiveSparkPlanExec.scala:561)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.createQueryStages(AdaptiveSparkPlanExec.scala:561)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$getFinalPhysicalPlan$1(AdaptiveSparkPlanExec.scala:261)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.getFinalPhysicalPlan(AdaptiveSparkPlanExec.scala:256)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.withFinalPlanUpdate(AdaptiveSparkPlanExec.scala:401)
+	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.executeCollect(AdaptiveSparkPlanExec.scala:374)
+	at org.apache.spark.sql.Dataset.$anonfun$count$1(Dataset.scala:3626)
+	at org.apache.spark.sql.Dataset.$anonfun$count$1$adapted(Dataset.scala:3625)
+	at org.apache.spark.sql.Dataset.$anonfun$withAction$2(Dataset.scala:4334)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:546)
+	at org.apache.spark.sql.Dataset.$anonfun$withAction$1(Dataset.scala:4332)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.Dataset.withAction(Dataset.scala:4332)
+	at org.apache.spark.sql.Dataset.count(Dataset.scala:3625)
+	at jdk.internal.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.sendCommand(ClientServerConnection.java:244)
+	at py4j.CallbackClient.sendCommand(CallbackClient.java:384)
+	at py4j.CallbackClient.sendCommand(CallbackClient.java:356)
+	at py4j.reflection.PythonProxyHandler.invoke(PythonProxyHandler.java:106)
+	at com.sun.proxy.$Proxy30.call(Unknown Source)
+	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1(ForeachBatchSink.scala:53)
+	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1$adapted(ForeachBatchSink.scala:53)
+	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:34)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$17(MicroBatchExecution.scala:732)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$16(MicroBatchExecution.scala:729)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:427)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:425)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runBatch(MicroBatchExecution.scala:729)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$2(MicroBatchExecution.scala:286)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:427)
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:425)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$1(MicroBatchExecution.scala:249)
+	at org.apache.spark.sql.execution.streaming.ProcessingTimeExecutor.execute(TriggerExecutor.scala:67)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runActivatedStream(MicroBatchExecution.scala:239)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.$anonfun$runStream$1(StreamExecution.scala:311)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:289)
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.$anonfun$run$1(StreamExecution.scala:211)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:211)
+
