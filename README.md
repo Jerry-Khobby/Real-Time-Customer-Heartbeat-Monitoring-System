@@ -278,11 +278,8 @@ You should now observe:
 
 ## Evidence of Data Ingestion
 
-Insert database proof screenshots here:
+![ Database Insert Screenshot Placeholder ](./insertion.png)
 
-```
-[ Database Insert Screenshot Placeholder ]
-```
 
 Example verification query:
 
