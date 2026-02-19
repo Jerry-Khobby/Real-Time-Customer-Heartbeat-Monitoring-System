@@ -313,10 +313,12 @@ SELECT * FROM heartbeats ORDER BY timestamp DESC LIMIT 10;
    * User: postgres
    * Password: postgres
 
-Insert Grafana dashboard screenshots here:
 
 
 ![Grafana Dashboard Screenshot Placeholder-one ](./grafana-dashboard.png)
+
+----------------------------------------------------------------------
+
 
 ![Grafana Dashboard Screenshot Placeholder-two](./grafana-dashboard-two.png)
 
