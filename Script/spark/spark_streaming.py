@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import from_json, col
+from pyspark.sql.functions import from_json, col,window
 from pyspark.sql.types import StructType, StructField, IntegerType, StringType, TimestampType
 from producer.logging_config import setup_logging
 
@@ -54,6 +54,16 @@ validated_df = heartbeat_df.filter(
 
 logger.info("Starting stream processing...")
 
+# Apply watermark of 10 minutes on the event-time column "timestamp"
+# and aggregate using 5-minute tumbling windows
+watermarked_df = validated_df.withWatermark("timestamp","10 minutes")
+
+# Perform aggregation on patient_id and 5-minute windows
+windowed_df = watermarked_df.groupBy(
+    "patient_id",
+    window("timestamp", "5 minutes")
+).count()
+
 # Write to PostgreSQL
 def write_to_postgres(batch_df, batch_id):
     if batch_df.count() == 0:
@@ -74,8 +84,8 @@ def write_to_postgres(batch_df, batch_id):
     except Exception as e:
         logger.error(f"[Batch {batch_id}] Failed to write to PostgreSQL: {e}")
 
-validated_df.writeStream \
+windowed_df.writeStream \
     .foreachBatch(write_to_postgres) \
-    .outputMode("append") \
+    .outputMode("update") \
     .start() \
     .awaitTermination()

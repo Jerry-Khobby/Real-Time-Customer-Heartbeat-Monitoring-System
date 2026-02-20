@@ -1110,3 +1110,8 @@ java.base/java.lang.Thread.run(Unknown Source)
 2026-02-19 14:21:03,379 | INFO | heartbeats_consumer | [Batch 552] Successfully wrote 1 rows to PostgreSQL
 2026-02-19 14:21:04,269 | INFO | heartbeats_consumer | [Batch 553] Successfully wrote 2 rows to PostgreSQL
 2026-02-19 14:21:06,250 | INFO | heartbeats_consumer | [Batch 554] Successfully wrote 1 rows to PostgreSQL
+2026-02-19 14:26:34,909 | INFO | heartbeats_consumer | Starting Spark Streaming application...
+2026-02-19 14:26:40,617 | INFO | heartbeats_consumer | Spark session created successfully
+2026-02-19 14:26:40,619 | INFO | heartbeats_consumer | Reading from Kafka topic: heartbeats
+2026-02-19 14:26:46,928 | INFO | heartbeats_consumer | Starting stream processing...
+2026-02-19 14:27:03,652 | INFO | heartbeats_consumer | [Batch 0] Successfully wrote 1437 rows to PostgreSQL
