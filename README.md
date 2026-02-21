@@ -24,6 +24,9 @@ This project demonstrates core data engineering concepts including event streami
 
 ### Architecture Diagram
 ![Architecture Diagram Placeholder](./realtime-heartbeat.drawio.png)
+
+
+!![Architecture Diagram Placeholder](./Heart-Monitoring.png)
 ---
 
 ## Technology Stack

@@ -2458,3 +2458,308 @@
 2026-02-21 11:45:57,746 | INFO | heartbeat_producer | Shutdown signal received. Stopping producer...
 2026-02-21 11:45:57,959 | INFO | heartbeat_producer | Flushing producer...
 2026-02-21 11:45:57,962 | INFO | heartbeat_producer | Producer closed gracefully.
+2026-02-21 11:48:27,073 | INFO | heartbeat_producer | Starting Heartbeat Data Producer...
+2026-02-21 11:48:27,075 | INFO | heartbeat_producer | Kafka Broker: kafka:9092
+2026-02-21 11:48:27,076 | INFO | heartbeat_producer | Topic: heartbeats
+2026-02-21 11:48:27,078 | INFO | heartbeat_producer | Simulating 25 patients
+2026-02-21 11:48:27,089 | INFO | heartbeat_producer | Connected to Kafka successfully.
+2026-02-21 11:48:27,295 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=92 status=normal partition=0
+2026-02-21 11:48:28,049 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=99 status=normal partition=0
+2026-02-21 11:48:28,823 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=89 status=normal partition=0
+2026-02-21 11:48:29,629 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=65 status=normal partition=0
+2026-02-21 11:48:30,692 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=80 status=normal partition=0
+2026-02-21 11:48:31,816 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=67 status=normal partition=0
+2026-02-21 11:48:33,285 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=36 status=bradycardia partition=0
+2026-02-21 11:48:34,373 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=79 status=normal partition=0
+2026-02-21 11:48:35,480 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=78 status=normal partition=0
+2026-02-21 11:48:36,258 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=48 status=bradycardia partition=0
+2026-02-21 11:48:36,901 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=98 status=normal partition=0
+2026-02-21 11:48:37,624 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=86 status=normal partition=0
+2026-02-21 11:48:38,558 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=91 status=normal partition=0
+2026-02-21 11:48:39,111 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=85 status=normal partition=0
+2026-02-21 11:48:39,831 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=93 status=normal partition=0
+2026-02-21 11:48:40,526 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=94 status=normal partition=0
+2026-02-21 11:48:41,942 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=91 status=normal partition=0
+2026-02-21 11:48:42,913 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=93 status=normal partition=0
+2026-02-21 11:48:43,937 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=100 status=normal partition=0
+2026-02-21 11:48:44,792 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=79 status=normal partition=0
+2026-02-21 11:48:45,734 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=91 status=normal partition=0
+2026-02-21 11:48:46,743 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=100 status=normal partition=0
+2026-02-21 11:48:47,333 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=69 status=normal partition=0
+2026-02-21 11:48:48,345 | INFO | heartbeat_producer | Sent → patient_id=19 heart_rate=74 status=normal partition=0
+2026-02-21 11:48:49,594 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=88 status=normal partition=0
+2026-02-21 11:48:50,173 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=79 status=normal partition=0
+2026-02-21 11:48:50,747 | INFO | heartbeat_producer | Sent → patient_id=20 heart_rate=62 status=normal partition=0
+2026-02-21 11:48:51,578 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=83 status=normal partition=0
+2026-02-21 11:48:52,254 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=62 status=normal partition=0
+2026-02-21 11:48:53,502 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=99 status=normal partition=0
+2026-02-21 11:48:54,907 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=66 status=normal partition=0
+2026-02-21 11:48:55,710 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=39 status=bradycardia partition=0
+2026-02-21 11:48:56,860 | INFO | heartbeat_producer | Sent → patient_id=7 heart_rate=65 status=normal partition=0
+2026-02-21 11:48:57,388 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=80 status=normal partition=0
+2026-02-21 11:48:58,078 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=72 status=normal partition=0
+2026-02-21 11:48:58,658 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=65 status=normal partition=0
+2026-02-21 11:48:59,392 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=76 status=normal partition=0
+2026-02-21 11:49:00,490 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=85 status=normal partition=0
+2026-02-21 11:49:01,158 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=99 status=normal partition=0
+2026-02-21 11:49:02,331 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=88 status=normal partition=0
+2026-02-21 11:49:03,018 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=87 status=normal partition=0
+2026-02-21 11:49:03,628 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=142 status=tachycardia partition=0
+2026-02-21 11:49:04,968 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=79 status=normal partition=0
+2026-02-21 11:49:05,573 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=75 status=normal partition=0
+2026-02-21 11:49:06,915 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=89 status=normal partition=0
+2026-02-21 11:49:08,107 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=43 status=bradycardia partition=0
+2026-02-21 11:49:09,631 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=100 status=normal partition=0
+2026-02-21 11:49:10,276 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=73 status=normal partition=0
+2026-02-21 11:49:11,190 | INFO | heartbeat_producer | Sent → patient_id=20 heart_rate=92 status=normal partition=0
+2026-02-21 11:49:11,719 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=96 status=normal partition=0
+2026-02-21 11:49:12,282 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=74 status=normal partition=0
+2026-02-21 11:49:13,466 | INFO | heartbeat_producer | Sent → patient_id=8 heart_rate=37 status=bradycardia partition=0
+2026-02-21 11:49:14,095 | INFO | heartbeat_producer | Sent → patient_id=19 heart_rate=95 status=normal partition=0
+2026-02-21 11:49:15,377 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=70 status=normal partition=0
+2026-02-21 11:49:16,379 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=71 status=normal partition=0
+2026-02-21 11:49:17,496 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=69 status=normal partition=0
+2026-02-21 11:49:18,486 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=79 status=normal partition=0
+2026-02-21 11:49:19,918 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=81 status=normal partition=0
+2026-02-21 11:49:20,779 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=69 status=normal partition=0
+2026-02-21 11:49:21,362 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=83 status=normal partition=0
+2026-02-21 11:49:22,826 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=60 status=normal partition=0
+2026-02-21 11:49:23,519 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=95 status=normal partition=0
+2026-02-21 11:49:24,443 | INFO | heartbeat_producer | Sent → patient_id=20 heart_rate=76 status=normal partition=0
+2026-02-21 11:49:25,829 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=93 status=normal partition=0
+2026-02-21 11:49:27,181 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=84 status=normal partition=0
+2026-02-21 11:49:27,946 | INFO | heartbeat_producer | Sent → patient_id=7 heart_rate=96 status=normal partition=0
+2026-02-21 11:49:28,486 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=144 status=tachycardia partition=0
+2026-02-21 11:49:29,769 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=100 status=normal partition=0
+2026-02-21 11:49:30,415 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=98 status=normal partition=0
+2026-02-21 11:49:31,481 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=67 status=normal partition=0
+2026-02-21 11:49:32,813 | INFO | heartbeat_producer | Sent → patient_id=20 heart_rate=71 status=normal partition=0
+2026-02-21 11:49:33,418 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=94 status=normal partition=0
+2026-02-21 11:49:34,445 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=78 status=normal partition=0
+2026-02-21 11:49:35,684 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=71 status=normal partition=0
+2026-02-21 11:49:36,301 | INFO | heartbeat_producer | Sent → patient_id=13 heart_rate=63 status=normal partition=0
+2026-02-21 11:49:37,789 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=77 status=normal partition=0
+2026-02-21 11:49:38,798 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=76 status=normal partition=0
+2026-02-21 11:49:39,839 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=73 status=normal partition=0
+2026-02-21 11:49:41,096 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=64 status=normal partition=0
+2026-02-21 11:49:42,478 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=82 status=normal partition=0
+2026-02-21 11:49:43,748 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=42 status=bradycardia partition=0
+2026-02-21 11:49:44,645 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=73 status=normal partition=0
+2026-02-21 11:49:45,329 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=82 status=normal partition=0
+2026-02-21 11:49:46,610 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=78 status=normal partition=0
+2026-02-21 11:49:47,632 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=80 status=normal partition=0
+2026-02-21 11:49:48,245 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=90 status=normal partition=0
+2026-02-21 11:49:49,281 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=85 status=normal partition=0
+2026-02-21 11:49:50,261 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=83 status=normal partition=0
+2026-02-21 11:49:51,524 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=61 status=normal partition=0
+2026-02-21 11:49:52,998 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=68 status=normal partition=0
+2026-02-21 11:49:54,445 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=74 status=normal partition=0
+2026-02-21 11:49:55,936 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=96 status=normal partition=0
+2026-02-21 11:49:56,853 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=97 status=normal partition=0
+2026-02-21 11:49:58,308 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=75 status=normal partition=0
+2026-02-21 11:49:59,339 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=98 status=normal partition=0
+2026-02-21 11:50:00,226 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=69 status=normal partition=0
+2026-02-21 11:50:01,231 | INFO | heartbeat_producer | Sent → patient_id=16 heart_rate=100 status=normal partition=0
+2026-02-21 11:50:02,017 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=83 status=normal partition=0
+2026-02-21 11:50:03,060 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=69 status=normal partition=0
+2026-02-21 11:50:04,223 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=80 status=normal partition=0
+2026-02-21 11:50:05,074 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=86 status=normal partition=0
+2026-02-21 11:50:06,214 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=82 status=normal partition=0
+2026-02-21 11:50:07,479 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=88 status=normal partition=0
+2026-02-21 11:50:08,373 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=77 status=normal partition=0
+2026-02-21 11:50:09,143 | INFO | heartbeat_producer | Sent → patient_id=19 heart_rate=63 status=normal partition=0
+2026-02-21 11:50:09,812 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=83 status=normal partition=0
+2026-02-21 11:50:10,671 | INFO | heartbeat_producer | Sent → patient_id=13 heart_rate=94 status=normal partition=0
+2026-02-21 11:50:11,775 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=90 status=normal partition=0
+2026-02-21 11:50:13,153 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=98 status=normal partition=0
+2026-02-21 11:50:13,960 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=64 status=normal partition=0
+2026-02-21 11:50:15,113 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=93 status=normal partition=0
+2026-02-21 11:50:16,419 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=85 status=normal partition=0
+2026-02-21 11:50:17,935 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=73 status=normal partition=0
+2026-02-21 11:50:19,229 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=86 status=normal partition=0
+2026-02-21 11:50:20,491 | INFO | heartbeat_producer | Sent → patient_id=13 heart_rate=79 status=normal partition=0
+2026-02-21 11:50:21,848 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=95 status=normal partition=0
+2026-02-21 11:50:22,509 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=81 status=normal partition=0
+2026-02-21 11:50:23,071 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=79 status=normal partition=0
+2026-02-21 11:50:23,707 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=67 status=normal partition=0
+2026-02-21 11:50:24,307 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=61 status=normal partition=0
+2026-02-21 11:50:25,126 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=100 status=normal partition=0
+2026-02-21 11:50:25,803 | INFO | heartbeat_producer | Sent → patient_id=7 heart_rate=83 status=normal partition=0
+2026-02-21 11:50:27,248 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=86 status=normal partition=0
+2026-02-21 11:50:28,276 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=95 status=normal partition=0
+2026-02-21 11:50:29,415 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=60 status=normal partition=0
+2026-02-21 11:50:30,363 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=100 status=normal partition=0
+2026-02-21 11:50:31,233 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=83 status=normal partition=0
+2026-02-21 11:50:31,865 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=61 status=normal partition=0
+2026-02-21 11:50:33,136 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=79 status=normal partition=0
+2026-02-21 11:50:33,915 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=86 status=normal partition=0
+2026-02-21 11:50:35,045 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=74 status=normal partition=0
+2026-02-21 11:50:36,386 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=95 status=normal partition=0
+2026-02-21 11:50:37,313 | INFO | heartbeat_producer | Sent → patient_id=8 heart_rate=68 status=normal partition=0
+2026-02-21 11:50:38,201 | INFO | heartbeat_producer | Sent → patient_id=13 heart_rate=74 status=normal partition=0
+2026-02-21 11:50:39,361 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=60 status=normal partition=0
+2026-02-21 11:50:50,270 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:51:02,277 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:51:16,280 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:51:32,282 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:51:50,282 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:52:00,284 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 11:52:11,491 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:52:23,494 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:52:37,497 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:52:53,499 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:53:11,503 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:53:21,506 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 11:53:32,960 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:53:44,963 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:53:58,966 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:54:14,965 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:54:32,971 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:54:42,970 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 11:54:54,427 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:55:06,430 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:55:20,436 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:55:36,441 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:55:54,445 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:56:04,452 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 11:56:15,173 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:56:27,181 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:56:41,187 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:56:57,196 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:57:15,201 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:57:25,204 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 11:57:35,854 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:57:47,855 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:58:01,858 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:58:17,858 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:58:35,861 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:58:45,861 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 11:58:47,207 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120011 ms has passed since batch creation
+2026-02-21 11:58:59,209 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:59:13,209 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:59:29,212 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:59:47,214 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 11:59:57,223 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:00:08,299 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:00:20,300 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:00:34,303 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:00:49,216 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120007 ms has passed since batch creation
+2026-02-21 12:01:07,220 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:01:17,246 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:01:28,684 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:04:29,463 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Expiring 3 record(s) for TopicPartition(topic='heartbeats', partition=0): 212242 ms has passed since batch creation
+2026-02-21 12:04:43,467 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:04:59,479 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:13:47,629 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:13:57,636 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:20:54,861 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:21:06,868 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:21:20,866 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:21:36,868 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:21:54,869 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:22:04,871 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:22:15,963 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:22:27,965 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:22:31,354 | INFO | heartbeat_producer | Shutdown signal received. Stopping producer...
+2026-02-21 12:39:12,327 | INFO | heartbeat_producer | Starting Heartbeat Data Producer...
+2026-02-21 12:39:12,328 | INFO | heartbeat_producer | Kafka Broker: kafka:9092
+2026-02-21 12:39:12,330 | INFO | heartbeat_producer | Topic: heartbeats
+2026-02-21 12:39:12,332 | INFO | heartbeat_producer | Simulating 25 patients
+2026-02-21 12:39:12,351 | INFO | heartbeat_producer | Connected to Kafka successfully.
+2026-02-21 12:39:12,534 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=78 status=normal partition=0
+2026-02-21 12:39:13,290 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=74 status=normal partition=0
+2026-02-21 12:39:14,632 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=61 status=normal partition=0
+2026-02-21 12:39:15,321 | INFO | heartbeat_producer | Sent → patient_id=7 heart_rate=64 status=normal partition=0
+2026-02-21 12:39:16,160 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=84 status=normal partition=0
+2026-02-21 12:39:17,487 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=94 status=normal partition=0
+2026-02-21 12:39:18,229 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=90 status=normal partition=0
+2026-02-21 12:39:19,515 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=68 status=normal partition=0
+2026-02-21 12:39:20,061 | INFO | heartbeat_producer | Sent → patient_id=8 heart_rate=92 status=normal partition=0
+2026-02-21 12:39:21,281 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=93 status=normal partition=0
+2026-02-21 12:39:21,916 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=84 status=normal partition=0
+2026-02-21 12:39:22,931 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=93 status=normal partition=0
+2026-02-21 12:39:24,272 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=77 status=normal partition=0
+2026-02-21 12:39:25,243 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=46 status=bradycardia partition=0
+2026-02-21 12:39:26,693 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=82 status=normal partition=0
+2026-02-21 12:39:27,399 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=39 status=bradycardia partition=0
+2026-02-21 12:39:28,150 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=40 status=bradycardia partition=0
+2026-02-21 12:39:28,904 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=64 status=normal partition=0
+2026-02-21 12:39:29,739 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=90 status=normal partition=0
+2026-02-21 12:39:30,358 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=76 status=normal partition=0
+2026-02-21 12:39:31,032 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=83 status=normal partition=0
+2026-02-21 12:39:31,582 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=88 status=normal partition=0
+2026-02-21 12:39:33,025 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=76 status=normal partition=0
+2026-02-21 12:39:34,183 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=76 status=normal partition=0
+2026-02-21 12:39:35,145 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=82 status=normal partition=0
+2026-02-21 12:39:36,473 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=95 status=normal partition=0
+2026-02-21 12:39:37,851 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=89 status=normal partition=0
+2026-02-21 12:39:38,932 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=70 status=normal partition=0
+2026-02-21 12:39:40,406 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=65 status=normal partition=0
+2026-02-21 12:39:41,581 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=45 status=bradycardia partition=0
+2026-02-21 12:39:42,231 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=93 status=normal partition=0
+2026-02-21 12:39:43,259 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=87 status=normal partition=0
+2026-02-21 12:39:44,209 | INFO | heartbeat_producer | Sent → patient_id=16 heart_rate=76 status=normal partition=0
+2026-02-21 12:39:45,394 | INFO | heartbeat_producer | Sent → patient_id=16 heart_rate=68 status=normal partition=0
+2026-02-21 12:39:46,116 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=82 status=normal partition=0
+2026-02-21 12:39:47,479 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=72 status=normal partition=0
+2026-02-21 12:39:48,695 | INFO | heartbeat_producer | Sent → patient_id=8 heart_rate=93 status=normal partition=0
+2026-02-21 12:39:49,675 | INFO | heartbeat_producer | Sent → patient_id=8 heart_rate=91 status=normal partition=0
+2026-02-21 12:39:50,673 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=90 status=normal partition=0
+2026-02-21 12:39:51,675 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=66 status=normal partition=0
+2026-02-21 12:39:52,201 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=94 status=normal partition=0
+2026-02-21 12:39:53,186 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=63 status=normal partition=0
+2026-02-21 12:39:54,172 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=67 status=normal partition=0
+2026-02-21 12:39:55,055 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=65 status=normal partition=0
+2026-02-21 12:39:55,914 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=77 status=normal partition=0
+2026-02-21 12:39:56,825 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=75 status=normal partition=0
+2026-02-21 12:39:58,062 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=84 status=normal partition=0
+2026-02-21 12:39:59,575 | INFO | heartbeat_producer | Sent → patient_id=8 heart_rate=80 status=normal partition=0
+2026-02-21 12:40:00,329 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=66 status=normal partition=0
+2026-02-21 12:40:01,258 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=84 status=normal partition=0
+2026-02-21 12:40:01,949 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=81 status=normal partition=0
+2026-02-21 12:40:03,057 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=73 status=normal partition=0
+2026-02-21 12:40:04,534 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=87 status=normal partition=0
+2026-02-21 12:40:05,631 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=90 status=normal partition=0
+2026-02-21 12:40:07,043 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=83 status=normal partition=0
+2026-02-21 12:40:08,339 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=94 status=normal partition=0
+2026-02-21 12:40:09,366 | INFO | heartbeat_producer | Sent → patient_id=20 heart_rate=84 status=normal partition=0
+2026-02-21 12:40:10,036 | INFO | heartbeat_producer | Sent → patient_id=10 heart_rate=62 status=normal partition=0
+2026-02-21 12:40:10,870 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=64 status=normal partition=0
+2026-02-21 12:40:11,701 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=68 status=normal partition=0
+2026-02-21 12:40:12,228 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=78 status=normal partition=0
+2026-02-21 12:40:13,207 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=89 status=normal partition=0
+2026-02-21 12:40:14,111 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=76 status=normal partition=0
+2026-02-21 12:40:14,881 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=78 status=normal partition=0
+2026-02-21 12:40:15,696 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=80 status=normal partition=0
+2026-02-21 12:40:16,278 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=81 status=normal partition=0
+2026-02-21 12:40:17,791 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=61 status=normal partition=0
+2026-02-21 12:40:19,274 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=67 status=normal partition=0
+2026-02-21 12:40:20,277 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=71 status=normal partition=0
+2026-02-21 12:40:21,330 | INFO | heartbeat_producer | Sent → patient_id=20 heart_rate=71 status=normal partition=0
+2026-02-21 12:40:22,813 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=98 status=normal partition=0
+2026-02-21 12:40:24,154 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=64 status=normal partition=0
+2026-02-21 12:40:25,480 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=72 status=normal partition=0
+2026-02-21 12:40:26,002 | INFO | heartbeat_producer | Sent → patient_id=20 heart_rate=92 status=normal partition=0
+2026-02-21 12:40:26,588 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=61 status=normal partition=0
+2026-02-21 12:40:28,002 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=49 status=bradycardia partition=0
+2026-02-21 12:40:28,726 | INFO | heartbeat_producer | Sent → patient_id=11 heart_rate=76 status=normal partition=0
+2026-02-21 12:40:30,203 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=87 status=normal partition=0
+2026-02-21 12:40:31,324 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=62 status=normal partition=0
+2026-02-21 12:40:32,635 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=60 status=normal partition=0
+2026-02-21 12:40:33,406 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=93 status=normal partition=0
+2026-02-21 12:40:34,806 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=62 status=normal partition=0
+2026-02-21 12:40:35,953 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=86 status=normal partition=0
+2026-02-21 12:40:37,141 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=84 status=normal partition=0
+2026-02-21 12:40:38,349 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=35 status=bradycardia partition=0
+2026-02-21 12:40:38,928 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=82 status=normal partition=0
+2026-02-21 12:40:39,806 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=63 status=normal partition=0
+2026-02-21 12:40:40,814 | INFO | heartbeat_producer | Sent → patient_id=15 heart_rate=93 status=normal partition=0
+2026-02-21 12:40:41,875 | INFO | heartbeat_producer | Sent → patient_id=13 heart_rate=82 status=normal partition=0
+2026-02-21 12:40:43,006 | INFO | heartbeat_producer | Sent → patient_id=6 heart_rate=89 status=normal partition=0
+2026-02-21 12:40:43,540 | INFO | heartbeat_producer | Sent → patient_id=19 heart_rate=83 status=normal partition=0
+2026-02-21 12:40:44,724 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=68 status=normal partition=0
+2026-02-21 12:40:45,690 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=87 status=normal partition=0
+2026-02-21 12:40:46,476 | INFO | heartbeat_producer | Sent → patient_id=23 heart_rate=100 status=normal partition=0
+2026-02-21 12:40:47,627 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=70 status=normal partition=0
+2026-02-21 12:40:49,047 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=143 status=tachycardia partition=0
+2026-02-21 12:40:50,300 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=70 status=normal partition=0
