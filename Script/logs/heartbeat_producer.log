@@ -2763,3 +2763,200 @@
 2026-02-21 12:40:47,627 | INFO | heartbeat_producer | Sent → patient_id=3 heart_rate=70 status=normal partition=0
 2026-02-21 12:40:49,047 | INFO | heartbeat_producer | Sent → patient_id=5 heart_rate=143 status=tachycardia partition=0
 2026-02-21 12:40:50,300 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=70 status=normal partition=0
+2026-02-21 12:40:51,458 | INFO | heartbeat_producer | Sent → patient_id=18 heart_rate=99 status=normal partition=0
+2026-02-21 12:40:52,876 | INFO | heartbeat_producer | Sent → patient_id=16 heart_rate=63 status=normal partition=0
+2026-02-21 12:40:53,741 | INFO | heartbeat_producer | Sent → patient_id=24 heart_rate=69 status=normal partition=0
+2026-02-21 12:40:54,682 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=84 status=normal partition=0
+2026-02-21 12:40:55,440 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=83 status=normal partition=0
+2026-02-21 12:40:56,086 | INFO | heartbeat_producer | Sent → patient_id=13 heart_rate=95 status=normal partition=0
+2026-02-21 12:40:57,352 | INFO | heartbeat_producer | Sent → patient_id=25 heart_rate=64 status=normal partition=0
+2026-02-21 12:40:58,440 | INFO | heartbeat_producer | Sent → patient_id=9 heart_rate=97 status=normal partition=0
+2026-02-21 12:40:59,858 | INFO | heartbeat_producer | Sent → patient_id=17 heart_rate=36 status=bradycardia partition=0
+2026-02-21 12:41:00,927 | INFO | heartbeat_producer | Sent → patient_id=1 heart_rate=79 status=normal partition=0
+2026-02-21 12:41:01,766 | INFO | heartbeat_producer | Sent → patient_id=14 heart_rate=96 status=normal partition=0
+2026-02-21 12:41:02,465 | INFO | heartbeat_producer | Sent → patient_id=12 heart_rate=90 status=normal partition=0
+2026-02-21 12:41:03,409 | INFO | heartbeat_producer | Sent → patient_id=20 heart_rate=124 status=tachycardia partition=0
+2026-02-21 12:41:04,346 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=80 status=normal partition=0
+2026-02-21 12:41:05,722 | INFO | heartbeat_producer | Sent → patient_id=4 heart_rate=77 status=normal partition=0
+2026-02-21 12:41:06,992 | INFO | heartbeat_producer | Sent → patient_id=13 heart_rate=74 status=normal partition=0
+2026-02-21 12:41:07,889 | INFO | heartbeat_producer | Sent → patient_id=21 heart_rate=98 status=normal partition=0
+2026-02-21 12:41:09,180 | INFO | heartbeat_producer | Sent → patient_id=22 heart_rate=150 status=tachycardia partition=0
+2026-02-21 12:41:10,659 | INFO | heartbeat_producer | Sent → patient_id=13 heart_rate=93 status=normal partition=0
+2026-02-21 12:41:11,345 | INFO | heartbeat_producer | Sent → patient_id=2 heart_rate=78 status=normal partition=0
+2026-02-21 12:41:12,352 | INFO | heartbeat_producer | Sent → patient_id=13 heart_rate=84 status=normal partition=0
+2026-02-21 12:41:13,787 | INFO | heartbeat_producer | Sent → patient_id=19 heart_rate=82 status=normal partition=0
+2026-02-21 12:41:24,694 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:41:36,701 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:41:50,705 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:42:06,708 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:42:24,707 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:42:34,712 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:42:45,317 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:42:57,317 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:43:11,325 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:43:27,325 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:43:45,333 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:43:55,332 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:44:06,112 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:44:18,112 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:44:32,119 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:44:48,120 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:45:06,124 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:45:16,131 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:45:17,337 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120012 ms has passed since batch creation
+2026-02-21 12:45:29,339 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:45:43,342 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:45:59,344 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:46:17,349 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:46:27,354 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:46:38,128 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:46:50,127 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:47:04,131 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:47:19,347 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120008 ms has passed since batch creation
+2026-02-21 12:47:37,350 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:47:47,351 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:47:57,995 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:48:10,000 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:48:23,999 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:48:40,003 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:48:58,004 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:49:08,013 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:49:19,111 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:49:28,923 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 121572 ms has passed since batch creation
+2026-02-21 12:49:42,928 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:49:58,929 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:50:16,931 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:50:26,933 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:50:38,065 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:50:50,066 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:51:04,069 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:51:20,073 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:51:32,936 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120008 ms has passed since batch creation
+2026-02-21 12:51:42,937 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:51:53,447 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:52:05,451 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:52:19,448 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:52:35,452 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:52:53,451 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:53:03,459 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:53:14,719 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:53:26,717 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:53:40,724 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:53:56,726 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:54:14,733 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:54:24,731 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:54:35,309 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:54:47,311 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:55:01,319 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:55:17,317 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:55:35,324 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:55:45,330 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:55:46,755 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120024 ms has passed since batch creation
+2026-02-21 12:55:58,756 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:56:12,763 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:56:28,764 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:56:46,770 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:56:56,770 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:57:08,067 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:57:20,072 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:57:34,082 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:57:48,764 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120007 ms has passed since batch creation
+2026-02-21 12:58:06,773 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:58:16,780 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:58:28,093 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:58:40,099 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:58:54,103 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:59:10,110 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:59:28,113 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:59:38,118 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 12:59:49,355 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 12:59:56,779 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120006 ms has passed since batch creation
+2026-02-21 13:00:10,785 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:00:26,783 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:00:44,787 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:00:54,790 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:01:06,023 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:03:01,057 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Expiring 5 record(s) for TopicPartition(topic='heartbeats', partition=0): 180273 ms has passed since batch creation
+2026-02-21 13:03:15,059 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:03:31,067 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:03:49,072 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:03:59,077 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:04:10,228 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:04:22,231 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:04:36,233 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:04:52,236 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:05:06,109 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 121050 ms has passed since batch creation
+2026-02-21 13:05:16,111 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:05:26,817 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:05:38,822 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:05:52,829 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:06:08,829 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:06:26,834 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:06:36,833 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:06:47,977 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:06:59,980 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:07:13,981 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:07:29,990 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:07:47,989 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:07:57,991 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:08:08,938 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:08:20,942 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:08:34,942 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:08:50,950 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:09:08,951 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:09:18,954 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:09:30,115 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:09:42,116 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:09:56,124 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:10:12,127 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:10:30,134 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:10:40,141 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:10:50,914 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:11:02,917 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:11:16,921 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:11:32,923 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:11:50,927 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:12:00,926 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:12:12,085 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:12:24,094 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:12:38,098 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:12:54,102 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:13:12,107 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:13:22,111 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:13:22,948 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120021 ms has passed since batch creation
+2026-02-21 13:13:34,948 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:13:48,958 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:14:04,958 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:14:22,967 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:14:32,968 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:14:44,107 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:14:56,114 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:15:10,116 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:15:24,980 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120025 ms has passed since batch creation
+2026-02-21 13:15:42,984 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:15:52,991 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:16:03,605 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:16:15,608 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:16:29,611 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:16:45,611 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:17:03,614 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:17:13,618 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:17:25,007 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:17:33,004 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120020 ms has passed since batch creation
+2026-02-21 13:17:47,011 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:18:03,016 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:18:21,020 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:18:31,021 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:18:41,958 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:18:53,964 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:19:07,964 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:19:23,967 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:19:37,862 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Expiring 8 record(s) for TopicPartition(topic='heartbeats', partition=0): 120851 ms has passed since batch creation
+2026-02-21 13:19:47,870 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:19:58,848 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:20:10,852 | WARNING | heartbeat_producer | Send failed (attempt 2/5). Retrying in 4.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:20:24,855 | WARNING | heartbeat_producer | Send failed (attempt 3/5). Retrying in 6.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:20:40,855 | WARNING | heartbeat_producer | Send failed (attempt 4/5). Retrying in 8.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:20:58,863 | WARNING | heartbeat_producer | Send failed (attempt 5/5). Retrying in 10.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2026-02-21 13:21:08,864 | ERROR | heartbeat_producer | Message permanently failed after max retries.
+2026-02-21 13:21:19,952 | WARNING | heartbeat_producer | Send failed (attempt 1/5). Retrying in 2.0s... Error: KafkaTimeoutError: Timeout after waiting for 10 secs.
