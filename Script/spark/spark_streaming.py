@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import from_json, col,window
+from pyspark.sql.functions import from_json, col
 from pyspark.sql.types import StructType, StructField, IntegerType, StringType, TimestampType
 from producer.logging_config import setup_logging
 
@@ -16,12 +16,10 @@ spark = SparkSession.builder \
     .config("spark.jars", "/opt/spark-apps/jars/postgresql-42.7.6.jar") \
     .getOrCreate()
 
-# Set Spark log level
 spark.sparkContext.setLogLevel("WARN")
-
 logger.info("Spark session created successfully")
 
-# Define schema
+# Define schema of incoming Kafka JSON
 schema = StructType([
     StructField("patient_id", IntegerType(), nullable=False),
     StructField("timestamp", StringType(), nullable=False),
@@ -31,20 +29,20 @@ schema = StructType([
 
 logger.info("Reading from Kafka topic: heartbeats")
 
-# Read from Kafka
+# Read stream from Kafka
 df = spark.readStream.format("kafka") \
     .option("kafka.bootstrap.servers", "kafka:9092") \
     .option("subscribe", "heartbeats") \
     .option("startingOffsets", "earliest") \
     .load()
 
-# Parse JSON and cast timestamp
+# Parse JSON and cast timestamp to proper type
 heartbeat_df = df.selectExpr("CAST(value AS STRING) as json") \
     .select(from_json("json", schema).alias("data")) \
     .select("data.*") \
     .withColumn("timestamp", col("timestamp").cast(TimestampType()))
 
-# Validate
+# Validate incoming records
 validated_df = heartbeat_df.filter(
     (col("patient_id").isNotNull()) &
     (col("timestamp").isNotNull()) &
@@ -54,17 +52,7 @@ validated_df = heartbeat_df.filter(
 
 logger.info("Starting stream processing...")
 
-# Apply watermark of 10 minutes on the event-time column "timestamp"
-# and aggregate using 5-minute tumbling windows
-watermarked_df = validated_df.withWatermark("timestamp","10 minutes")
-
-# Perform aggregation on patient_id and 5-minute windows
-windowed_df = watermarked_df.groupBy(
-    "patient_id",
-    window("timestamp", "5 minutes")
-).count()
-
-# Write to PostgreSQL
+# Write raw validated records to PostgreSQL
 def write_to_postgres(batch_df, batch_id):
     if batch_df.count() == 0:
         logger.info(f"[Batch {batch_id}] No records to write")
@@ -80,12 +68,37 @@ def write_to_postgres(batch_df, batch_id):
             .option("driver", "org.postgresql.Driver") \
             .mode("append") \
             .save()
+        
         logger.info(f"[Batch {batch_id}] Successfully wrote {batch_df.count()} rows to PostgreSQL")
     except Exception as e:
         logger.error(f"[Batch {batch_id}] Failed to write to PostgreSQL: {e}")
 
-windowed_df.writeStream \
+# Stream write (no watermark, no aggregation)
+validated_df.writeStream \
     .foreachBatch(write_to_postgres) \
-    .outputMode("update") \
+    .outputMode("append") \
     .start() \
     .awaitTermination()
+    
+
+
+# -----------------------------------------------------------------------------------
+# NOTE:
+# We are currently storing raw heartbeat events directly into PostgreSQL.
+# No event-time aggregations are being performed in this streaming job.
+#
+# Watermarking is only required when performing stateful operations such as:
+#   - windowed aggregations (groupBy + window)
+#   - stream-stream joins
+#   - event-time based computations
+#
+# If we introduce time-based aggregations in the future, we should use:
+#     .withWatermark("timestamp", "10 minutes")
+#
+# This would allow Spark to:
+#   - Accept late-arriving data up to 10 minutes
+#   - Properly manage state and memory
+#   - Drop records arriving later than the configured watermark threshold
+#
+# For now, since we are only appending raw events, watermarking is not required.
+# -----------------------------------------------------------------------------------
