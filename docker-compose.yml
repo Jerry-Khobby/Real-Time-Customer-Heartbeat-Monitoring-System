@@ -101,7 +101,7 @@ services:
       postgres:
         condition: service_healthy
     networks:
-      - net-heatbeat
+      - net-heatbeat          
     volumes:
       - grafana_data:/var/lib/grafana
     environment:

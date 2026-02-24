@@ -83,6 +83,7 @@ def create_producer_with_retry() -> KafkaProducer:
                 retries=5,
                 linger_ms=10,
                 acks="all",
+                enable_idempotence=True
             )
             logger.info("Connected to Kafka successfully.")
             return producer

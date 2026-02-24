@@ -49,7 +49,8 @@ validated_df = heartbeat_df.filter(
     (col("heart_rate").between(HEART_RATE_MIN, HEART_RATE_MAX)) &
     (col("status").isin(VALID_STATUSES))
 )
-
+# Remove duplicates in this micro-batch to prevent PostgreSQL duplicates
+validated_df = validated_df.dropDuplicates(["patient_id", "timestamp"])
 logger.info("Starting stream processing...")
 
 # Write raw validated records to PostgreSQL
@@ -59,6 +60,7 @@ def write_to_postgres(batch_df, batch_id):
         return
     
     try:
+         # use append mode, but note: duplicates possible if Spark retries batch
         batch_df.write \
             .format("jdbc") \
             .option("url", "jdbc:postgresql://postgres:5432/heartbeat_db") \
@@ -77,6 +79,7 @@ def write_to_postgres(batch_df, batch_id):
 validated_df.writeStream \
     .foreachBatch(write_to_postgres) \
     .outputMode("append") \
+    .option("checkpointLocation", "/tmp/spark-checkpoints/heartbeat") \
     .start() \
     .awaitTermination()
     
