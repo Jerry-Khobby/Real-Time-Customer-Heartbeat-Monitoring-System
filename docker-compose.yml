@@ -101,13 +101,22 @@ services:
       postgres:
         condition: service_healthy
     networks:
-      - net-heatbeat          
+      - net-heatbeat
     volumes:
       - grafana_data:/var/lib/grafana
     environment:
       GF_SECURITY_ADMIN_USER: admin
       GF_SECURITY_ADMIN_PASSWORD: admin
       GF_USERS_ALLOW_SIGN_UP: "false"
+
+  tests:
+    build: .
+    container_name: heartbeat-tests
+    networks:
+      - net-heatbeat
+    volumes:
+      - ./Script:/Script
+    command: pytest -v
 
 volumes:
   postgres_data:

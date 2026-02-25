@@ -145,6 +145,7 @@ heartbeats(
     timestamp TIMESTAMP,
     heart_rate INTEGER,
     status VARCHAR
+    UNIQUE(patient_id, timestamp)
 )
 ```
 

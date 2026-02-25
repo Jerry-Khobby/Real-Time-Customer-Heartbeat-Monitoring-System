@@ -2,3 +2,6 @@ kafka-python
 psycopg2-binary
 pandas
 python-dotenv
+pytest
+pytest-cov
+pytest-mock
