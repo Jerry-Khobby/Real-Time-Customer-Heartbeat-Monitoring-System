@@ -23,10 +23,10 @@ This project demonstrates core data engineering concepts including event streami
 ---
 
 ### Architecture Diagram
-![Architecture Diagram Placeholder](./realtime-heartbeat.drawio.png)
+![Architecture Diagram Placeholder](./images/realtime-heartbeat.drawio.png)
 
 
-![Architecture Diagram Placeholder](./Heart-Monitoring.png)
+![Architecture Diagram Placeholder](./images/Heart-Monitoring.png)
 ---
 
 ## Technology Stack
@@ -282,7 +282,7 @@ You should now observe:
 
 ## Evidence of Data Ingestion
 
-![ Database Insert Screenshot Placeholder ](./insertion.png)
+![ Database Insert Screenshot Placeholder ](./images/insertion.png)
 
 
 Example verification query:
@@ -316,12 +316,12 @@ SELECT * FROM heartbeats ORDER BY timestamp DESC LIMIT 10;
 
 
 
-![Grafana Dashboard Screenshot Placeholder-one ](./grafana-dashboard.png)
+![Grafana Dashboard Screenshot Placeholder-one ](./images/grafana-dashboard.png)
 
 ----------------------------------------------------------------------
 
 
-![Grafana Dashboard Screenshot Placeholder-two](./grafana-dashboard-two.png)
+![Grafana Dashboard Screenshot Placeholder-two](./images/grafana-dashboard-two.png)
 
 ---
 
