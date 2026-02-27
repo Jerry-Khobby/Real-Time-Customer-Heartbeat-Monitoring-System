@@ -109,15 +109,6 @@ services:
       GF_SECURITY_ADMIN_PASSWORD: admin
       GF_USERS_ALLOW_SIGN_UP: "false"
 
-  tests:
-    build: .
-    container_name: heartbeat-tests
-    networks:
-      - net-heatbeat
-    volumes:
-      - ./Script:/Script
-    command: pytest -v
-
 volumes:
   postgres_data:
   grafana_data:

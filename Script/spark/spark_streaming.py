@@ -105,3 +105,4 @@ validated_df.writeStream \
 #
 # For now, since we are only appending raw events, watermarking is not required.
 # -----------------------------------------------------------------------------------
+

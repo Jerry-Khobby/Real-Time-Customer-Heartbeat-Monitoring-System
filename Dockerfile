@@ -11,8 +11,7 @@ RUN apt-get update && \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Install PySpark explicitly (needed for tests)
-RUN pip install --no-cache-dir pyspark
+
 
 COPY Script/ .
 
